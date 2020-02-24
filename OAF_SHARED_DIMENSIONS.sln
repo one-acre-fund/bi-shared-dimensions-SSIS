@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "OAF_DataWarehouse", "OAF_DataWarehouse\OAF_DataWarehouse.dtproj", "{B7B64069-CC0E-4FD4-A5D3-A17A08494266}"
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "OAF_SHARED_DIMENSIONS", "OAF_DataWarehouse\OAF_SHARED_DIMENSIONS.dtproj", "{B7B64069-CC0E-4FD4-A5D3-A17A08494266}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

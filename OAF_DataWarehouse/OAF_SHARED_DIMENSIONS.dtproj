@@ -15,7 +15,7 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{dc035f4f-9f74-44db-9a83-ad6b2f24f156}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">OAF_DataWarehouse</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">OAF_SHARED_DIMENSIONS</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">SCOTTS-LENOVO-D</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="iqaO5bX27A==" SSIS:IV="DVpnK7uATdw=">Pgt1SysNmAzGxMqbqmu3IyQL9JCKp6wDvQYd9dBlFaVycaZIsBuVPIrXcxDgLZ79s1gZmRB9b5DwJEyBOoFXWfGN9OHEDUkvwv2F3p93UqU5IVzDgcmbu6vO+4oeG+YU1Hzr5oDuUYZBsHAOE4r7bGBRsMFogBrBG2zdfIEgEmjpB2cs4aQDXA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="mEL3B9Rhbg==" SSIS:IV="a7cIRKmviHg=">Ura+JK7PeV28K/aS20WDoliHK7LplrtvouUFmeLN+uYgEa4T8gNLzJJK7lq4aJNhbVHqDa56WJHwtjlBWDZFtInUlkdsCKMj/QMvYasIpLJGIecxAstCiwTOmT0C5EOFfswU4yykvDipqU12Gt6SsVl1zZNs4FKBKGfPlNEcVmlVz2AlxPa0nQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
