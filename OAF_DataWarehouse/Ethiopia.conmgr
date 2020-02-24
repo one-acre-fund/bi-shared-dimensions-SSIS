@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Ethiopia"
+  DTS:DTSID="{2362CE59-3CC5-4F67-A108-91C36794EE46}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=138.201.191.56,3341;User ID=BOSSIS0001;Initial Catalog=SBK_OAF_ACC_ETH;Provider=SQLNCLI11.1;Persist Security Info=True;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="Y3WSeQ9U4g=="
+        p4:IV="wRyfmrb0A1Y=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">mbOWFAy4/JbMP64Ba/MPxmiEDp4OKKUotuDuZdGfBvKMwh0fxAsnbRk0sRYB8kn2+B8+Ib9yUcWJMO5C4w4K1/8lnYtDIbeKOGGNQBoGhRkLAfh4fWeAxpzq8zlqN/s5ZwNnpReLVtwKV0JyXakyVJRwATBq7G1Fuv5bKFVAHZI=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

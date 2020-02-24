@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "OAF_DataWarehouse", "OAF_DataWarehouse\OAF_DataWarehouse.dtproj", "{B7B64069-CC0E-4FD4-A5D3-A17A08494266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B64069-CC0E-4FD4-A5D3-A17A08494266}.Development|Default.ActiveCfg = Development
+		{B7B64069-CC0E-4FD4-A5D3-A17A08494266}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52F54AD9-21A6-4231-9329-57BEE1F83CD9}
+	EndGlobalSection
+EndGlobal

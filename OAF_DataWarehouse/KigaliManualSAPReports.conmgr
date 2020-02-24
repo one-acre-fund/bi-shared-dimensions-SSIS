@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="KigaliManualSAPReports"
+  DTS:DTSID="{2AE5E26C-5A2F-40C5-8EA9-4F5592C2EB97}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=grains.oneacrefund.org,3341;User ID=BOSSIS0001;Initial Catalog=ManualSAPReports;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="159C1pilgA=="
+        p4:IV="dFGPTKJDvgk=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">T9q7yaGpS7tg+ucysr+ExF6BXkEtCWyXwi607DMehcTY0QoI1rj9XwLd1/XKhrDGS7gMUoaludoQvr9s7Mmf2+WswBZHBdJ6UMu2qbov8+RHZ67hnQpPwVySb6gKqXGrqabmIEIZ52XGAVCUa/LqbFtwY5FG8duw/UXa3J27bOA=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

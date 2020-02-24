@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="WebExpenseDev"
+  DTS:DTSID="{784D2911-0387-43ED-B1DE-193FB0981AF8}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=oaffinance.database.windows.net;User ID=SSIS0001;Initial Catalog=OAFBackOfficeDev;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="LVt4xit6pA=="
+        p4:IV="V8CUGjNHsKE=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">wsHfnbhbiRP9yPLe5QPT5MHyaLI/HB3aEYg4Si3BHqHM+fGOfqJuhgO3Dmj2LTXQTNloZoWL+f0MRW+/d9KuYsG2jHkhRCfDH8C12wYNGvP3jqRCM92RzwZC6aZU4N/2GO1jKixCuf7ToboGNid/VLEoln9c4VId4MKdrjO9/00=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

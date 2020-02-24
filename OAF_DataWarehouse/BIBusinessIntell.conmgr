@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="BIBusinessIntell"
+  DTS:DTSID="{4F531974-976E-4689-B7CD-AC1B722728C2}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=bibusinessintell,6543;User ID=BOSUser001;Initial Catalog=RosterReporting;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="ynbyVLCMdg=="
+        p4:IV="e2FR4I/o90s=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">mFFkIrUqFnXzpPjh6O3sfrh51yRmrfUajN+ZSYeq+tK9Jaq9ZL5C20O23lstNZ/IEWu9ID4eHtmdmxebYZ7jkdmBv+457/xf94vjbJZFP0fBQiubRVyxCnsx6rtNJPXzOosBz7y410ibiovGP6podYX7epqHI9HkQeDSGmEBNPI=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

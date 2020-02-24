@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="MtamamultipleDbs"
+  DTS:DTSID="{C50B502D-310D-4057-9C1F-339270150FBD}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=mtama.oneacrefund.org;User ID=BOSSIS0001;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="4qzfjrovfg=="
+        p4:IV="se5wWR/4vFc=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">SuyGMILSI2BjWlzSiE8CHsOzH8rTi6ha4k+t+aMH4x3Yi13wmy7LRTioqdpk6n8nXJpxGbVpC1ElAOS14I3PH5OelJLHBzboyXLWN0VpS+58/YK4D5HOaA/8rD7oxhrUvTIV4epbm0VOyobySP8d3hmJYvHSmExay0tdjdgCeIw=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

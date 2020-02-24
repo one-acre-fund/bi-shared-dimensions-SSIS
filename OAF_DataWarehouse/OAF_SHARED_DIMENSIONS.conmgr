@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OAF_SHARED_DIMENSIONS"
+  DTS:DTSID="{F1117407-6E68-49E3-8E8F-878612073469}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=OAF_SHARED_DIMENSIONS;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="q470ZzJrZA=="
+        p4:IV="cIOQo7PmKVw=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">dqTfnxwg1ipbeZT8KUfFsNHujLjQtDqkhX1+yAYRj8JJ3au8k2MxpZ8Mq6NSFN+Mecfa5fWfV64ZWhje27HmbdgHc2A5LXgwTh7Y8eT+gd9mYbZJz9B50X3IWSnpD8bZh4QCPBamgZs4abet7q9dlLeGVCJ9Lkk5QLGfpUox0m4=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
