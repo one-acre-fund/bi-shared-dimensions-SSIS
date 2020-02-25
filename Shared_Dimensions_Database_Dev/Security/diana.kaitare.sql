@@ -1,2 +1,4 @@
-﻿CREATE USER [diana.kaitare];
+﻿CREATE USER [diana.kaitare] FOR LOGIN [Diana.Kaitare];
+
+
 

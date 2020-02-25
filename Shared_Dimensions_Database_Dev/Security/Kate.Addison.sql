@@ -1,2 +1,4 @@
-﻿CREATE USER [Kate.Addison];
+﻿CREATE USER [Kate.Addison] FOR LOGIN [Kate.Addison];
+
+
 

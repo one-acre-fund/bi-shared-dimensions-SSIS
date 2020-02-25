@@ -1,2 +1,4 @@
-﻿CREATE USER [Vedaste.Cyizere];
+﻿CREATE USER [Vedaste.Cyizere] FOR LOGIN [Vedaste.Cyizere];
+
+
 

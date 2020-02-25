@@ -152,3 +152,7 @@ ALTER ROLE [db_denydatawriter] ADD MEMBER [step.aston];
 GO
 ALTER ROLE [db_denydatawriter] ADD MEMBER [jaeun.lee];
 
+
+GO
+ALTER ROLE [db_datareader] ADD MEMBER [sol.eskenazi];
+

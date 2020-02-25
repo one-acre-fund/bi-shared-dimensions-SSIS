@@ -1,2 +1,4 @@
-﻿CREATE USER [jaeun.lee];
+﻿CREATE USER [jaeun.lee] FOR LOGIN [jaeun.lee];
+
+
 

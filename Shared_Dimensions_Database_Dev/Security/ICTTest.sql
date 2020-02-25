@@ -1,2 +1,4 @@
-﻿CREATE USER [ICTTest];
+﻿CREATE USER [ICTTest] FOR LOGIN [ICTTest];
+
+
 

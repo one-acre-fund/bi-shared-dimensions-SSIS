@@ -1,2 +1,4 @@
-﻿CREATE USER [junho.hyun];
+﻿CREATE USER [junho.hyun] FOR LOGIN [junho.hyun];
+
+
 

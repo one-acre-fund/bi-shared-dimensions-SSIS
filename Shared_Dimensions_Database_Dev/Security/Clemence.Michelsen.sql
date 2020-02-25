@@ -1,2 +1,4 @@
-﻿CREATE USER [Clemence.Michelsen];
+﻿CREATE USER [Clemence.Michelsen] FOR LOGIN [Clemence.Michelsen];
+
+
 

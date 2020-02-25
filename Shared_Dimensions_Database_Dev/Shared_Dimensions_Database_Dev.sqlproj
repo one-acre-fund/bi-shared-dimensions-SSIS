@@ -169,5 +169,17 @@
     <Build Include="Security\gideon.maina.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Functions\v_RosterEmployees.sql" />
+    <Build Include="dbo\Tables\VisualStudioTest.sql" />
+    <Build Include="dbo\Tables\RepaymentKPI.sql" />
+    <Build Include="dbo\Tables\FS_KPI_RepaymentCube.sql" />
+    <Build Include="dbo\Tables\CountryRepaymentKPI.sql" />
+    <Build Include="Security\sol.eskenazi.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
+      <HintPath>$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
+    </ArtifactReference>
   </ItemGroup>
 </Project>

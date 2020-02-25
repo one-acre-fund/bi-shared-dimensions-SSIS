@@ -1,2 +1,4 @@
-﻿CREATE USER [Jeandamascene.sibomana];
+﻿CREATE USER [Jeandamascene.sibomana] FOR LOGIN [Jeandamascene.sibomana];
+
+
 

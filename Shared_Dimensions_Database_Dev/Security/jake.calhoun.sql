@@ -1,2 +1,4 @@
-﻿CREATE USER [jake.calhoun];
+﻿CREATE USER [jake.calhoun] FOR LOGIN [jake.calhoun];
+
+
 

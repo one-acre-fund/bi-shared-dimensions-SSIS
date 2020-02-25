@@ -1,2 +1,4 @@
-﻿CREATE USER [step.aston];
+﻿CREATE USER [step.aston] FOR LOGIN [step.aston];
+
+
 

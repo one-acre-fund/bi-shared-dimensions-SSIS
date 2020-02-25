@@ -1,2 +1,4 @@
-﻿CREATE USER [Scott.Noel];
+﻿CREATE USER [Scott.Noel] FOR LOGIN [Scott.Noel];
+
+
 

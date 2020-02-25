@@ -1,2 +1,4 @@
-﻿CREATE USER [FinanceRequestSheet];
+﻿CREATE USER [FinanceRequestSheet] FOR LOGIN [FinanceRequestSheet];
+
+
 

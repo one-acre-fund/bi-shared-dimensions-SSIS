@@ -1,2 +1,4 @@
-﻿CREATE USER [TechReadOnly];
+﻿CREATE USER [TechReadOnly] FOR LOGIN [TechReadOnly];
+
+
 

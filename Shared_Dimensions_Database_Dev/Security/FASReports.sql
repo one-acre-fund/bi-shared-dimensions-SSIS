@@ -1,2 +1,4 @@
-﻿CREATE USER [FASReports];
+﻿CREATE USER [FASReports] FOR LOGIN [FASReports];
+
+
 

@@ -1,2 +1,4 @@
-﻿CREATE USER [BizOps0001];
+﻿CREATE USER [BizOps0001] FOR LOGIN [BizOps0001];
+
+
 

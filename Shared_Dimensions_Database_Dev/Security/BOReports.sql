@@ -1,2 +1,4 @@
-﻿CREATE USER [BOReports];
+﻿CREATE USER [BOReports] FOR LOGIN [BOReports];
+
+
 

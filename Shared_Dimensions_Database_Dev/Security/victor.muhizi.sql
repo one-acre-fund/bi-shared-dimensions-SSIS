@@ -1,2 +1,4 @@
-﻿CREATE USER [victor.muhizi];
+﻿CREATE USER [victor.muhizi] FOR LOGIN [victor.muhizi];
+
+
 

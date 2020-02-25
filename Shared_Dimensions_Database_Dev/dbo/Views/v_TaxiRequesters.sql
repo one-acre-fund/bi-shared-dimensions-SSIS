@@ -1,8 +1,11 @@
 ﻿
 
 
+
+
 CREATE VIEW [dbo].[v_TaxiRequesters]
 AS
+
 
 	select 
 	'1 - Interview Candidate' [FullName],
@@ -33,11 +36,12 @@ AS
 	{ fn concat( { fn concat(dimlocations.locationcode, ' ') }, dimlocations.locationname) } as [Location],
 	Dimjobgrade.JobgradeName [JobGradeName]
 	from [OAF_HR_DATAWAREHOUSE].[dbo].[v_TaxiRequestersBasicInfo]
-	left join [OAF_SHARED_DIMENSIONS].dbo.dimlocations on [v_TaxiRequestersBasicInfo].locationid = dimlocations.webportallocationid
-	left join [OAF_SHARED_DIMENSIONS].dbo.dimdepartments on [v_TaxiRequestersBasicInfo].departmentid = dimdepartments.webportaldepartmentid
+	left join [OAF_SHARED_DIMENSIONS].dbo.dimlocations on [v_TaxiRequestersBasicInfo].locationid = dimlocations.webportallocationid and [v_TaxiRequestersBasicInfo].countryid = dimlocations.Countryid
+	left join [OAF_SHARED_DIMENSIONS].dbo.dimdepartments on [v_TaxiRequestersBasicInfo].departmentid = dimdepartments.webportaldepartmentid and [v_TaxiRequestersBasicInfo].countryid = dimdepartments.countryid
 	left join [OAF_SAP_DATAWAREHOUSE].dbo.dimjobgrade on [v_TaxiRequestersBasicInfo].JobGradeId = dimjobgrade.JobGradeId
 
-	where [v_TaxiRequestersBasicInfo].active = 1 and Dimjobgrade.JobgradeName IN ('JG4', 'JG5', 'JG6', 'JG7', 'JG5TEMP')
+	where [v_TaxiRequestersBasicInfo].active = 1 and Dimjobgrade.JobgradeName IN ('JG4', 'JG5', 'JG6', 'JG7', 'JG5TEMP') or 
+	({ fn concat( { fn concat(dimlocations.locationcode, ' ') }, dimlocations.locationname) } like 'ZHQ%' and Dimjobgrade.JobgradeName IN ('JG1','JG2','JG3','JG4', 'JG5', 'JG6', 'JG7', 'JG5TEMP'))
 
 
 

@@ -1,2 +1,4 @@
-﻿CREATE USER [FASKenya];
+﻿CREATE USER [FASKenya] FOR LOGIN [FASKenya];
+
+
 
