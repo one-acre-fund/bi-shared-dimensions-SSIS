@@ -1,0 +1,2 @@
+﻿CREATE USER [ICT0001];
+

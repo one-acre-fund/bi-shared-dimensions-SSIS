@@ -1,0 +1,2 @@
+﻿CREATE USER [LOG0001];
+

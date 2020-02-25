@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Shared_Dimensions_Database_Prod</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{aab812c2-4312-4653-ae59-a8aa8004cc78}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Shared_Dimensions_Database</RootNamespace>
+    <AssemblyName>Shared_Dimensions_Database</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="Security\" />
+    <Folder Include="dbo\Functions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\DimBundleInputs.sql" />
+    <Build Include="dbo\Tables\DimSeasons.sql" />
+    <Build Include="dbo\Tables\ClientsNames.sql" />
+    <Build Include="dbo\Tables\ETL_LoadLog.sql" />
+    <Build Include="dbo\Tables\ClientPhoneNumbers.sql" />
+    <Build Include="dbo\Tables\DimRosterSeason.sql" />
+    <Build Include="dbo\Tables\FuzzyLookupMatchIndex_FLRef_180928_12_50_16_10308_4e0dfb96-949a-4ae6-bb8e-69de162c5092.sql" />
+    <Build Include="dbo\Tables\FuzzyLookupMatchIndex.sql" />
+    <Build Include="dbo\Tables\DimCountry.sql" />
+    <Build Include="dbo\Tables\FuzzyLookupMatchIndex_FLRef_180928_12_56_28_24792_a3e214d0-387d-4c73-9b15-f2eab9d17f3c.sql" />
+    <Build Include="dbo\Tables\DBLogins.sql" />
+    <Build Include="dbo\Tables\DimDate.sql" />
+    <Build Include="dbo\Tables\ClientsChanged_test.sql" />
+    <Build Include="dbo\Tables\DimRosterClient.sql" />
+    <Build Include="dbo\Tables\AgroEcologicalZones.sql" />
+    <Build Include="dbo\Tables\DimDepartments.sql" />
+    <Build Include="dbo\Tables\DimProjects.sql" />
+    <Build Include="dbo\Tables\DimProgram.sql" />
+    <Build Include="dbo\Tables\ETL_LoadLog_Roster.sql" />
+    <Build Include="dbo\Tables\DimLocations.sql" />
+    <Build Include="dbo\Tables\DimRegion.sql" />
+    <Build Include="dbo\Tables\DWLoginStatus.sql" />
+    <Build Include="dbo\Tables\RepaymentKPI.sql" />
+    <Build Include="dbo\Tables\FS_KPI_RepaymentCube.sql" />
+    <Build Include="dbo\Tables\DimSector.sql" />
+    <Build Include="dbo\Tables\DimCreditCycles.sql" />
+    <Build Include="dbo\Tables\DimSite.sql" />
+    <Build Include="dbo\Tables\CountryRepaymentKPI.sql" />
+    <Build Include="dbo\Tables\DimGroup.sql" />
+    <Build Include="dbo\Tables\SeasonDeadlines.sql" />
+    <Build Include="dbo\Tables\DimVendor.sql" />
+    <Build Include="dbo\Tables\DimClient.sql" />
+    <Build Include="dbo\Tables\DimCurrency.sql" />
+    <Build Include="dbo\Tables\DimAccount.sql" />
+    <Build Include="dbo\Tables\dbo.DimItem_Old.sql" />
+    <Build Include="dbo\Tables\DimBundles.sql" />
+    <Build Include="dbo\Tables\DimCasualActivity.sql" />
+    <Build Include="dbo\Tables\DimHealthyPath.sql" />
+    <Build Include="dbo\Tables\ClientPhone.sql" />
+    <Build Include="dbo\Tables\DimRosterEmployee.sql" />
+    <Build Include="dbo\Tables\Round2_Consented_Farmers.sql" />
+    <Build Include="dbo\Tables\DimInputs.sql" />
+    <Build Include="dbo\Views\v_SiteFOs.sql" />
+    <Build Include="dbo\Views\v_Sectors.sql" />
+    <Build Include="dbo\Views\v_Inputs.sql" />
+    <Build Include="dbo\Views\v_Seasons.sql" />
+    <Build Include="dbo\Views\Roster_VIP_Employee_Comparison.sql" />
+    <Build Include="dbo\Views\v_Clients.sql" />
+    <Build Include="dbo\Views\v_ClientsWithAccountNumber.sql" />
+    <Build Include="dbo\Views\v_Countries.sql" />
+    <Build Include="dbo\Views\v_Programs.sql" />
+    <Build Include="dbo\Views\v_Regions.sql" />
+    <Build Include="dbo\Views\v_Districts.sql" />
+    <Build Include="dbo\Views\v_Sites.sql" />
+    <Build Include="dbo\Views\v_Projects.sql" />
+    <Build Include="dbo\Views\v_Groups.sql" />
+    <Build Include="dbo\Views\v_TaxiRequesters.sql" />
+    <Build Include="dbo\Views\Roster_HR_Comparison.sql" />
+    <Build Include="Security\clienttest.sql" />
+    <Build Include="Security\SSIS0001.sql" />
+    <Build Include="Security\GEV-FS-S030_denis.gachagua.sql" />
+    <Build Include="Security\GEV-FS-S030_fredrick.mandela.sql" />
+    <Build Include="Security\SSRS0001.sql" />
+    <Build Include="Security\SSRS0001_1.sql" />
+    <Build Include="Security\FinanceRequestSheet.sql" />
+    <Build Include="Security\FinanceRequestSheet_1.sql" />
+    <Build Include="Security\BOSSIS0001.sql" />
+    <Build Include="Security\BOSSIS0001_1.sql" />
+    <Build Include="Security\BOReports.sql" />
+    <Build Include="Security\BOReports_1.sql" />
+    <Build Include="Security\HRSSRS0001.sql" />
+    <Build Include="Security\HRSSRS0001_1.sql" />
+    <Build Include="Security\ClientReports.sql" />
+    <Build Include="Security\ClientReports_1.sql" />
+    <Build Include="Security\FASReports.sql" />
+    <Build Include="Security\FASReports_1.sql" />
+    <Build Include="Security\Marika.West.sql" />
+    <Build Include="Security\Marika_1.West.sql" />
+    <Build Include="Security\emiel.veersma.sql" />
+    <Build Include="Security\emiel_1.veersma.sql" />
+    <Build Include="Security\TechReadOnly.sql" />
+    <Build Include="Security\TechReadOnly_1.sql" />
+    <Build Include="Security\WarehouseMaster.sql" />
+    <Build Include="Security\diana.kaitare.sql" />
+    <Build Include="Security\Diana_1.Kaitare.sql" />
+    <Build Include="Security\BizOps0001.sql" />
+    <Build Include="Security\BizOps0001_1.sql" />
+    <Build Include="Security\ICTTest.sql" />
+    <Build Include="Security\ICTTest_1.sql" />
+    <Build Include="Security\AGR0001.sql" />
+    <Build Include="Security\AGR0001_1.sql" />
+    <Build Include="Security\GEV-FP-P040_FAUser4.sql" />
+    <Build Include="Security\CSSSIS0001.sql" />
+    <Build Include="Security\CSSSIS0001_1.sql" />
+    <Build Include="Security\denis.gachagua.sql" />
+    <Build Include="Security\denis_1.gachagua.sql" />
+    <Build Include="Security\ICT0001.sql" />
+    <Build Include="Security\ICT0001_1.sql" />
+    <Build Include="Security\Scott.Noel.sql" />
+    <Build Include="Security\Scott_1.Noel.sql" />
+    <Build Include="Security\HRSSIS0001.sql" />
+    <Build Include="Security\HRSSIS0001_1.sql" />
+    <Build Include="Security\Matt.Lowes.sql" />
+    <Build Include="Security\Max.Sop.sql" />
+    <Build Include="Security\Johnna.Sundberg.sql" />
+    <Build Include="Security\Johnna_1.Sundberg.sql" />
+    <Build Include="Security\step.aston.sql" />
+    <Build Include="Security\step_1.aston.sql" />
+    <Build Include="Security\jaeun.lee.sql" />
+    <Build Include="Security\jaeun_1.lee.sql" />
+    <Build Include="Security\TRD0001.sql" />
+    <Build Include="Security\TRD0001_1.sql" />
+    <Build Include="Security\GEV-FP-P040_FAUser6.sql" />
+    <Build Include="Security\junho.hyun.sql" />
+    <Build Include="Security\junho_1.hyun.sql" />
+    <Build Include="Security\LOG0001.sql" />
+    <Build Include="Security\LOG0001_1.sql" />
+    <Build Include="Security\Clemence.Michelsen.sql" />
+    <Build Include="Security\Clemence_1.Michelsen.sql" />
+    <Build Include="Security\Vedaste.Cyizere.sql" />
+    <Build Include="Security\Vedaste_1.Cyizere.sql" />
+    <Build Include="Security\Kate.Addison.sql" />
+    <Build Include="Security\Kate_1.Addison.sql" />
+    <Build Include="Security\Jeandamascene.sibomana.sql" />
+    <Build Include="Security\Jeandamascene_1.sibomana.sql" />
+    <Build Include="Security\etienne.niyitegeka.sql" />
+    <Build Include="Security\etienne_1.niyitegeka.sql" />
+    <Build Include="Security\jacques.mushimiyimana.sql" />
+    <Build Include="Security\jacques_1.mushimiyimana.sql" />
+    <Build Include="Security\victor.muhizi.sql" />
+    <Build Include="Security\victor_1.muhizi.sql" />
+    <Build Include="Security\jake.calhoun.sql" />
+    <Build Include="Security\jake_1.calhoun.sql" />
+    <Build Include="Security\FASKenya.sql" />
+    <Build Include="Security\FASKenya_1.sql" />
+    <Build Include="Security\gideon.maina.sql" />
+    <Build Include="Security\gideon_1.maina.sql" />
+    <Build Include="Security\sol.eskenazi.sql" />
+    <Build Include="Security\sol_1.eskenazi.sql" />
+    <Build Include="Security\RoleMemberships.sql" />
+    <Build Include="dbo\Functions\v_RosterEmployees.sql" />
+  </ItemGroup>
+</Project>

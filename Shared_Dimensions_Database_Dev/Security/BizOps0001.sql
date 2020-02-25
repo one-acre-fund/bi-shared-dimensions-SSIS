@@ -1,0 +1,2 @@
+﻿CREATE USER [BizOps0001];
+
