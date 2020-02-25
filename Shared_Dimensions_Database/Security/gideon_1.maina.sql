@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [gideon.maina]
+    WITH PASSWORD = N';Qlgmbunve fskn7z>orbJqnmsFT7_&#$!~<tz7>umzm7LOF', SID = 0x73D238F5211A63449D320BFFA146BAE7, DEFAULT_LANGUAGE = [us_english], CHECK_EXPIRATION = ON;
+

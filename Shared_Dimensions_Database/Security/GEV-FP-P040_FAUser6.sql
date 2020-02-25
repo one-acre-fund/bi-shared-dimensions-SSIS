@@ -1,0 +1,2 @@
+﻿CREATE USER [GEV-FP-P040\FAUser6] FOR LOGIN [\];
+

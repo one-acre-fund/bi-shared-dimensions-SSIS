@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [BOReports]
+    WITH PASSWORD = N'aSlgmbu9nvefs;nQzor3WqnzmsFT7_&#$!~<ummnfczheade', SID = 0x7C261ADC4F74614B9329420D050875BB, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

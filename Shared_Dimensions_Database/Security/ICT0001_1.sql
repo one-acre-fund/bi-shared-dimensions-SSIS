@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [ICT0001]
+    WITH PASSWORD = N'lgmEbunvef:>~0asSonLzorqmsFT7_&#$!~<nszummnfqczh', SID = 0x06C2DCEA36187A49A4D1B01DF2E6B287, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

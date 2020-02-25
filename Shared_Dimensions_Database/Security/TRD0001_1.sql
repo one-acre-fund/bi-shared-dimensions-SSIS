@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [TRD0001]
+    WITH PASSWORD = N'lgm$buNun+Yv@xefsnzrorq4msFT7_&#$!~<nzummnbfcz,h', SID = 0x0FA1E0C35090CD4BBAF8D92E0DC6E56B, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

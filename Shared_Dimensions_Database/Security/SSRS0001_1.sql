@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [SSRS0001]
+    WITH PASSWORD = N'b,kohrcooqdfyvtmoiTlnfxymsFT7_&#$!~<aphikhkjV@#t', SID = 0xFE149F9DBE47934E87E701925A2FA86A, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

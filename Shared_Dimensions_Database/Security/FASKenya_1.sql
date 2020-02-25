@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [FASKenya]
+    WITH PASSWORD = N'flgmbunvefsFnzForqPnQ,zumsFT7_&#$!~<m9monfczhe0a', SID = 0x55CFC3060D1F4E4BA802B835C60BE2CB, DEFAULT_LANGUAGE = [us_english], CHECK_EXPIRATION = ON;
+
