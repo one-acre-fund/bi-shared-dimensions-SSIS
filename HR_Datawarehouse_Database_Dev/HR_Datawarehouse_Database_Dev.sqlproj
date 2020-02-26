@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>HR_Datawarehouse_Database_Dev</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{8cc089c7-4e86-4be6-bc6e-4a12822dc273}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>HR_Datawarehouse_Database_Dev</RootNamespace>
+    <AssemblyName>HR_Datawarehouse_Database_Dev</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="HR\" />
+    <Folder Include="HR\Views\" />
+    <Folder Include="Security\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\AspNetLog.sql" />
+    <Build Include="dbo\Tables\BankAccountLog.sql" />
+    <Build Include="dbo\Tables\SFPaymentInformationDetail.sql" />
+    <Build Include="dbo\Tables\VIP_Employee.sql" />
+    <Build Include="dbo\Tables\SFEmployee.sql" />
+    <Build Include="dbo\Tables\SFBank.sql" />
+    <Build Include="dbo\Tables\UpdatedEmails.sql" />
+    <Build Include="dbo\Tables\AspNetUsers.sql" />
+    <Build Include="dbo\Tables\EmployeeMismatch.sql" />
+    <Build Include="dbo\Tables\VIP_Employee_Historical.sql" />
+    <Build Include="dbo\Tables\VIP_Payroll.sql" />
+    <Build Include="dbo\Tables\WebEmployee.sql" />
+    <Build Include="dbo\Tables\OHEM.sql" />
+    <Build Include="dbo\Tables\DimAspNetUsers.sql" />
+    <Build Include="dbo\Tables\WebUserErrorReport.sql" />
+    <Build Include="dbo\Tables\HEM2.sql" />
+    <Build Include="dbo\Tables\BankErrorLog.sql" />
+    <Build Include="dbo\Tables\EmailMismatch.sql" />
+    <Build Include="dbo\Tables\BadEmail.sql" />
+    <Build Include="dbo\Tables\DimEmployee.sql" />
+    <Build Include="dbo\Tables\BambooHrReport.sql" />
+    <Build Include="dbo\Tables\BambooHrJobInfo.sql" />
+    <Build Include="dbo\Tables\RWGroup.sql" />
+    <Build Include="dbo\Tables\BambooHrEmployees.sql" />
+    <Build Include="dbo\Tables\BambooHrFinanceCodes.sql" />
+    <Build Include="dbo\Tables\RWUsers.sql" />
+    <Build Include="dbo\Tables\WebPayments.sql" />
+    <Build Include="dbo\Tables\UndeterminedList.sql" />
+    <Build Include="dbo\Tables\PromotedEmployees.sql" />
+    <Build Include="dbo\Tables\DimCasualWorker.sql" />
+    <Build Include="dbo\Tables\GUsers.sql" />
+    <Build Include="dbo\Tables\NoMatchEmployee.sql" />
+    <Build Include="dbo\Tables\DimJobGrade.sql" />
+    <Build Include="dbo\Tables\Mismatch.sql" />
+    <Build Include="dbo\Tables\WebUpdate.sql" />
+    <Build Include="dbo\Tables\OHEM_Old.sql" />
+    <Build Include="dbo\Tables\SFEmpJob.sql" />
+    <Build Include="dbo\Tables\SFEmployment.sql" />
+    <Build Include="dbo\Tables\SFPersonalInfo.sql" />
+    <Build Include="dbo\Tables\SFCostCenter.sql" />
+    <Build Include="dbo\Tables\SFEmpCompensation.sql" />
+    <Build Include="dbo\Tables\SFPosition.sql" />
+    <Build Include="dbo\Tables\SFUsers.sql" />
+    <Build Include="dbo\Tables\Employee.sql" />
+    <Build Include="dbo\Tables\ErrorLog.sql" />
+    <Build Include="dbo\Tables\MMErrorLog.sql" />
+    <Build Include="dbo\Views\v_TaxiRequestersBasicInfo.sql" />
+    <Build Include="dbo\Views\HR_Employee_Emails.sql" />
+    <Build Include="dbo\Views\v_SFEmployee.sql" />
+    <Build Include="dbo\Views\v_Employee.sql" />
+    <Build Include="HR\Views\v_VipNotConfidential.sql" />
+    <Build Include="HR\Views\v_BambooNotConfidential.sql" />
+    <Build Include="Security\Fredrick.Mandela.sql" />
+    <Build Include="Security\Marika.West.sql" />
+    <Build Include="Security\GEV-FS-S030_fredrick.mandela.sql" />
+    <Build Include="Security\Anthony.Abavelim.sql" />
+    <Build Include="Security\HRSSIS0001.sql" />
+    <Build Include="Security\HRSSRS0001.sql" />
+    <Build Include="Security\TRD0001.sql" />
+    <Build Include="Security\WarehouseMaster.sql" />
+    <Build Include="Security\FinanceRequestSheet.sql" />
+    <Build Include="Security\Scott.Noel.sql" />
+    <Build Include="Security\BOReports.sql" />
+    <Build Include="Security\BOSSIS0001.sql" />
+    <Build Include="Security\Diana.Kaitare.sql" />
+    <Build Include="Security\GEV-FP-P040_FAUser6.sql" />
+    <Build Include="Security\GEV-FP-P040_FAUser4.sql" />
+    <Build Include="Security\PRO0001.sql" />
+    <Build Include="Security\denis.gachagua.sql" />
+    <Build Include="Security\RoleMemberships.sql" />
+    <Build Include="dbo\Functions\SFEmployee_Exceptions.sql" />
+    <Build Include="dbo\Functions\VIP_Employee_WebUserErrors.sql" />
+    <Build Include="dbo\Stored Procedures\SendEmail.sql" />
+    <Build Include="dbo\Stored Procedures\SendMMEmailAlert.sql" />
+    <Build Include="dbo\Stored Procedures\SendBankEmailAlert.sql" />
+    <Build Include="dbo\Stored Procedures\SendDepartmentErrorAlert.sql" />
+    <Build Include="dbo\Stored Procedures\RecentlyTermminated.sql" />
+    <Build Include="dbo\Stored Procedures\EmailUpdateAlert.sql" />
+    <Build Include="dbo\Stored Procedures\GSuiteDWReport.sql" />
+    <Build Include="Security\BOSSIS0001_1.sql" />
+    <Build Include="Security\GEV-FP-P040_FAUser4_1.sql" />
+    <Build Include="Security\HR.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
+      <HintPath>$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
+    </ArtifactReference>
+  </ItemGroup>
+</Project>

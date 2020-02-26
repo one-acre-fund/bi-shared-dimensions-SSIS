@@ -1,0 +1,2 @@
+﻿CREATE USER [TRD0001];
+

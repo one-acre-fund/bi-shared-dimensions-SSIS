@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[EmployeeMismatch] (
+    [PActive]           BIT            NULL,
+    [PID]               NVARCHAR (450) NULL,
+    [PCountryID]        INT            NULL,
+    [PDepartmentID]     INT            NULL,
+    [PFirstName]        NVARCHAR (100) NULL,
+    [PFullName]         NVARCHAR (201) NULL,
+    [PJobgradeID]       INT            NULL,
+    [PLastname]         NVARCHAR (100) NULL,
+    [PLocationID]       INT            NULL,
+    [PMiddleName]       NVARCHAR (100) NULL,
+    [PEmployeeId]       INT            NULL,
+    [PEmployeeCode]     INT            NULL,
+    [MiddleName]        NVARCHAR (100) NULL,
+    [DimLocationID]     INT            NULL,
+    [LastName]          NVARCHAR (100) NULL,
+    [FullName]          NVARCHAR (150) NULL,
+    [DimJobGradeID]     INT            NULL,
+    [DimDepartmentID]   INT            NULL,
+    [FirstName]         NVARCHAR (100) NULL,
+    [DimCountryID]      INT            NULL,
+    [ApplicationuserID] NVARCHAR (450) NULL,
+    [Active]            INT            NULL,
+    [EmployeeID]        INT            NULL
+);
+

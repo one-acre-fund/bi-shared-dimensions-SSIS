@@ -41,8 +41,8 @@ WITH SectorSiteEmployees AS (
 		END as AccountType
 		, CASE WHEN ISNUMERIC(PayrollID)=1 then cast(PayrollID as int) else Null end as RosterEmployeeCode,
 		'FO' EmployeeType
-from OAF_SHARED_DIMENSIONS_Staging..Employees e
-join OAF_SHARED_DIMENSIONS_Staging..SiteEmployees se on e.DistrictID=se.DistrictID and e.EmployeeID=se.EmployeeID
+from [$(OAF_SHARED_DIMENSIONS_Staging)]..Employees e
+join [$(OAF_SHARED_DIMENSIONS_Staging)]..SiteEmployees se on e.DistrictID=se.DistrictID and e.EmployeeID=se.EmployeeID
 join DimSite s on s.RosterDistrictID=e.DistrictID and s.RosterSiteID=se.SiteID
 WHERE  s.IsDeleted=0 and  StartDate <= (CONVERT (date, GETDATE())) AND IsNull(EndDate, '2099-01-01') >= (CONVERT (date, GETDATE()))
 
@@ -80,8 +80,8 @@ select
 		END as AccountType
 		, CASE WHEN ISNUMERIC(PayrollID)=1 then cast(PayrollID as int) else Null end as RosterEmployeeCode
 		, 'FM' EmployeeType
-from OAF_SHARED_DIMENSIONS_Staging..Employees e
-join OAF_SHARED_DIMENSIONS_Staging..SectorEmployees se on e.DistrictID=se.DistrictID and e.EmployeeID=se.EmployeeID
+from [$(OAF_SHARED_DIMENSIONS_Staging)]..Employees e
+join [$(OAF_SHARED_DIMENSIONS_Staging)]..SectorEmployees se on e.DistrictID=se.DistrictID and e.EmployeeID=se.EmployeeID
 WHERE StartDate <= (CONVERT (date, GETDATE())) AND IsNull(EndDate, '2099-01-01') >= (CONVERT (date, GETDATE()))	),
 
 
@@ -119,7 +119,7 @@ select
 	, CASE WHEN ISNUMERIC(PayrollID)=1 then cast(PayrollID as int) else Null end as RosterEmployeeCode
 	, 'Other' EmployeeType
 
-from OAF_SHARED_DIMENSIONS_Staging..Employees where rowguid not in (select rowguid from SectorSiteEmployees) and DateAdded <= CONVERT(date, GETDATE()) AND IsNull(DateClosed, '2099-01-01') >= CONVERT (date, GETDATE()))
+from [$(OAF_SHARED_DIMENSIONS_Staging)]..Employees where rowguid not in (select rowguid from SectorSiteEmployees) and DateAdded <= CONVERT(date, GETDATE()) AND IsNull(DateClosed, '2099-01-01') >= CONVERT (date, GETDATE()))
 
 select * from Final
 

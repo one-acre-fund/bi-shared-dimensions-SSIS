@@ -1,4 +1,0 @@
-﻿CREATE USER [ICTTest] FOR LOGIN [ICTTest];
-
-
-

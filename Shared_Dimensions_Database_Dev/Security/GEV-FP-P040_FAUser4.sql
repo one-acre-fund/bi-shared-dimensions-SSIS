@@ -1,2 +1,0 @@
-﻿CREATE USER [GEV-FP-P040\FAUser4];
-

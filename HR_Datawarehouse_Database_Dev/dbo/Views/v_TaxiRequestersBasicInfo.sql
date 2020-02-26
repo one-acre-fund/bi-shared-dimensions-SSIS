@@ -1,49 +1,7 @@
-﻿
-
-
-
-
-CREATE VIEW [dbo].[v_TaxiRequesters]
+﻿CREATE VIEW dbo.v_TaxiRequestersBasicInfo
 AS
-
-
-	select 
-	'1 - Interview Candidate' [FullName],
-	'CRO Corporate Operations' [Department],
-	Null [Location],
-	'Interview' [JobGradeName]
-
-	union all
-
-	select 
-	'3 - Other Visitor' [FullName],
-	'CRO Corporate Operations' [Department],
-	Null [Location],
-	'Visitor' [JobGradeName]
-
-	union all
-	
-	select 
-	'2 - Onboarder' [FullName],
-	'CRO Corporate Operations' [Department],
-	Null [Location],
-	'Onboarder' [JobGradeName]
-
-	union all
-	select 
-	[v_TaxiRequestersBasicInfo].FullName [FullName],
-	{ fn concat( { fn concat(dimdepartments.departmentcode, ' ') }, dimdepartments.departmentname) } as [Department],
-	{ fn concat( { fn concat(dimlocations.locationcode, ' ') }, dimlocations.locationname) } as [Location],
-	Dimjobgrade.JobgradeName [JobGradeName]
-	from [$(OAF_HR_DATAWAREHOUSE)].[dbo].[v_TaxiRequestersBasicInfo]
-	left join dbo.dimlocations on [v_TaxiRequestersBasicInfo].locationid = dimlocations.webportallocationid and [v_TaxiRequestersBasicInfo].countryid = dimlocations.Countryid
-	left join dbo.dimdepartments on [v_TaxiRequestersBasicInfo].departmentid = dimdepartments.webportaldepartmentid and [v_TaxiRequestersBasicInfo].countryid = dimdepartments.countryid
-	left join [$(OAF_HR_DATAWAREHOUSE)].dbo.dimjobgrade on [v_TaxiRequestersBasicInfo].JobGradeId = dimjobgrade.JobGradeId
-
-	where [v_TaxiRequestersBasicInfo].active = 1 and Dimjobgrade.JobgradeName IN ('JG4', 'JG5', 'JG6', 'JG7', 'JG5TEMP') or 
-	({ fn concat( { fn concat(dimlocations.locationcode, ' ') }, dimlocations.locationname) } like 'ZHQ%' and Dimjobgrade.JobgradeName IN ('JG1','JG2','JG3','JG4', 'JG5', 'JG6', 'JG7', 'JG5TEMP'))
-
-
+SELECT        FullName, LocationId, DepartmentId, JobGradeId, Active
+FROM            dbo.AspNetUsers
 
 GO
 EXECUTE sp_addextendedproperty @name = N'MS_DiagramPane1', @value = N'[0E232FF0-B466-11cf-A24F-00AA00A3EFFF, 1.00]
@@ -117,12 +75,12 @@ Begin DesignProperties =
          Left = 0
       End
       Begin Tables = 
-         Begin Table = "A"
+         Begin Table = "AspNetUsers"
             Begin Extent = 
                Top = 6
                Left = 38
                Bottom = 136
-               Right = 208
+               Right = 265
             End
             DisplayFlags = 280
             TopColumn = 0
@@ -164,9 +122,9 @@ Begin DesignProperties =
       End
    End
 End
-', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'VIEW', @level1name = N'v_TaxiRequesters';
+', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'VIEW', @level1name = N'v_TaxiRequestersBasicInfo';
 
 
 GO
-EXECUTE sp_addextendedproperty @name = N'MS_DiagramPaneCount', @value = 1, @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'VIEW', @level1name = N'v_TaxiRequesters';
+EXECUTE sp_addextendedproperty @name = N'MS_DiagramPaneCount', @value = 1, @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'VIEW', @level1name = N'v_TaxiRequestersBasicInfo';
 

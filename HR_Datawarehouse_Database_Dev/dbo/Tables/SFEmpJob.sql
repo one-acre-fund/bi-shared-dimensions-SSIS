@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[SFEmpJob] (
+    [Id]                   INT            NULL,
+    [UserId]               NVARCHAR (30)  NULL,
+    [StartDate]            DATETIME2 (7)  NULL,
+    [CreatedDate]          DATETIME2 (7)  NULL,
+    [CostCenter]           NVARCHAR (100) NULL,
+    [EmployeeStatus]       NVARCHAR (30)  NULL,
+    [CountryName]          NVARCHAR (100) NULL,
+    [PayGrade]             NVARCHAR (30)  NULL,
+    [ManagerId]            NVARCHAR (30)  NULL,
+    [LastModifiedDate]     DATETIME2 (7)  NULL,
+    [LastModifiedDateTime] DATETIME2 (7)  NULL,
+    [RegularTemp]          NVARCHAR (30)  NULL,
+    [Company]              NVARCHAR (100) NULL,
+    [BusinessUnit]         NVARCHAR (100) NULL,
+    [EmployeeClass]        NVARCHAR (30)  NULL,
+    [PositionEntryDate]    DATETIME2 (7)  NULL,
+    [Location]             NVARCHAR (100) NULL,
+    [EndDate]              DATETIME2 (7)  NULL,
+    [JobCode]              NVARCHAR (30)  NULL,
+    [Division]             NVARCHAR (100) NULL,
+    [JobTitle]             NVARCHAR (100) NULL,
+    [Position]             NVARCHAR (30)  NULL,
+    [Department]           NVARCHAR (100) NULL,
+    [LocalJobTitle]        NVARCHAR (100) NULL,
+    [WebUser]              NVARCHAR (10)  NULL
+);
+

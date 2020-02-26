@@ -63,7 +63,7 @@ WITH comp AS
 			, PayrollID
 			, ROW_NUMBER() OVER (Partition by de.RosterDistrictID, de.RosterEmployeeID order by  de.RosterSiteID, de.ROsterSectorId) RowNumber
          FROM  dbo.DimRosterEmployee AS de 
-		 full outer  JOIN (select e.*, lo.LocationName, RosterDistrictID from OAF_HR_DATAWAREHOUSE.dbo.Employee AS e join DimLocations lo on e.DimLocationID=lo.LocationID where Source='VIP' and Active=1 and JobGradeCode in ('FO','FM')) e 
+		 full outer  JOIN (select e.*, lo.LocationName, RosterDistrictID from [$(OAF_HR_DATAWAREHOUSE)].dbo.Employee AS e join DimLocations lo on e.DimLocationID=lo.LocationID where Source='VIP' and Active=1 and JobGradeCode in ('FO','FM')) e 
 				ON e.EmployeeID=de.HREmployeeID
 		 LEFT JOIN dbo.DimLocations AS l ON l.RosterDistrictID = de.RosterDistrictID 
 		 LEFT JOIN dbo.DimSite s on s.RosterDistrictID=de.RosterDistrictID and s.RosterSiteID=de.RosterSiteID and IsDeleted=0

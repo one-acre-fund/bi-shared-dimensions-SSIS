@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{f3d76272-b985-4cab-9a76-0e61a28d0747}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql140DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -62,7 +62,6 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
-    <Folder Include="Security\" />
     <Folder Include="dbo\Functions\" />
   </ItemGroup>
   <ItemGroup>
@@ -121,65 +120,41 @@
     <Build Include="dbo\Views\v_Groups.sql" />
     <Build Include="dbo\Views\v_TaxiRequesters.sql" />
     <Build Include="dbo\Views\Roster_HR_Comparison.sql" />
-    <Build Include="Security\clienttest.sql" />
-    <Build Include="Security\SSIS0001.sql" />
-    <Build Include="Security\GEV-FS-S030_denis.gachagua.sql" />
-    <Build Include="Security\GEV-FS-S030_fredrick.mandela.sql" />
-    <Build Include="Security\SSRS0001.sql" />
-    <Build Include="Security\FinanceRequestSheet.sql" />
-    <Build Include="Security\BOSSIS0001.sql" />
-    <Build Include="Security\BOReports.sql" />
-    <Build Include="Security\HRSSRS0001.sql" />
-    <Build Include="Security\ClientReports.sql" />
-    <Build Include="Security\FASReports.sql" />
-    <Build Include="Security\Marika.West.sql" />
-    <Build Include="Security\emiel.veersma.sql" />
-    <Build Include="Security\TechReadOnly.sql" />
-    <Build Include="Security\WarehouseMaster.sql" />
-    <Build Include="Security\diana.kaitare.sql" />
-    <Build Include="Security\BizOps0001.sql" />
-    <Build Include="Security\ICTTest.sql" />
-    <Build Include="Security\AGR0001.sql" />
-    <Build Include="Security\GEV-FP-P040_FAUser4.sql" />
-    <Build Include="Security\CSSSIS0001.sql" />
-    <Build Include="Security\CSSSIS0001_1.sql" />
-    <Build Include="Security\denis.gachagua.sql" />
-    <Build Include="Security\denis_1.gachagua.sql" />
-    <Build Include="Security\ICT0001.sql" />
-    <Build Include="Security\Scott.Noel.sql" />
-    <Build Include="Security\HRSSIS0001.sql" />
-    <Build Include="Security\Matt.Lowes.sql" />
-    <Build Include="Security\Max.Sop.sql" />
-    <Build Include="Security\Johnna.Sundberg.sql" />
-    <Build Include="Security\step.aston.sql" />
-    <Build Include="Security\jaeun.lee.sql" />
-    <Build Include="Security\TRD0001.sql" />
-    <Build Include="Security\GEV-FP-P040_FAUser6.sql" />
-    <Build Include="Security\junho.hyun.sql" />
-    <Build Include="Security\LOG0001.sql" />
-    <Build Include="Security\Clemence.Michelsen.sql" />
-    <Build Include="Security\Vedaste.Cyizere.sql" />
-    <Build Include="Security\Kate.Addison.sql" />
-    <Build Include="Security\Jeandamascene.sibomana.sql" />
-    <Build Include="Security\etienne.niyitegeka.sql" />
-    <Build Include="Security\jacques.mushimiyimana.sql" />
-    <Build Include="Security\victor.muhizi.sql" />
-    <Build Include="Security\jake.calhoun.sql" />
-    <Build Include="Security\FASKenya.sql" />
-    <Build Include="Security\gideon.maina.sql" />
-    <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Functions\v_RosterEmployees.sql" />
     <Build Include="dbo\Tables\VisualStudioTest.sql" />
     <Build Include="dbo\Tables\RepaymentKPI.sql" />
     <Build Include="dbo\Tables\FS_KPI_RepaymentCube.sql" />
     <Build Include="dbo\Tables\CountryRepaymentKPI.sql" />
-    <Build Include="Security\sol.eskenazi.sql" />
   </ItemGroup>
   <ItemGroup>
-    <ArtifactReference Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
-      <HintPath>$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac</HintPath>
+    <ArtifactReference Include="..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_HR_DATAWAREHOUSE.dacpac">
+      <HintPath>..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_HR_DATAWAREHOUSE.dacpac</HintPath>
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
-      <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
+      <DatabaseSqlCmdVariable>OAF_HR_DATAWAREHOUSE</DatabaseSqlCmdVariable>
     </ArtifactReference>
+    <ArtifactReference Include="..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_SHARED_DIMENSIONS_Staging.dacpac">
+      <HintPath>..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_SHARED_DIMENSIONS_Staging.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>OAF_SHARED_DIMENSIONS_Staging</DatabaseSqlCmdVariable>
+    </ArtifactReference>
+    <ArtifactReference Include="..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_SAP_DATAWAREHOUSE.dacpac">
+      <HintPath>..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_SAP_DATAWAREHOUSE.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>OAF_SAP_DATAWAREHOUSE</DatabaseSqlCmdVariable>
+    </ArtifactReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="OAF_HR_DATAWAREHOUSE">
+      <DefaultValue>OAF_HR_DATAWAREHOUSE</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="OAF_SAP_DATAWAREHOUSE">
+      <DefaultValue>OAF_SAP_DATAWAREHOUSE</DefaultValue>
+      <Value>$(SqlCmdVar__3)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="OAF_SHARED_DIMENSIONS_Staging">
+      <DefaultValue>OAF_SHARED_DIMENSIONS_Staging</DefaultValue>
+      <Value>$(SqlCmdVar__2)</Value>
+    </SqlCmdVariable>
   </ItemGroup>
 </Project>

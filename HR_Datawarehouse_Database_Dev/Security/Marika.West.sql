@@ -1,0 +1,2 @@
+﻿CREATE USER [Marika.West];
+

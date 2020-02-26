@@ -1,4 +1,0 @@
-﻿CREATE USER [BizOps0001] FOR LOGIN [BizOps0001];
-
-
-

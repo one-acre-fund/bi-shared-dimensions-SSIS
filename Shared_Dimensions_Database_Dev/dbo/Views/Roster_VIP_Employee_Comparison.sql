@@ -63,12 +63,12 @@ WITH comp AS
 			, de.EmployeeType
 			, PayrollID
 			, ROW_NUMBER() OVER (Partition by de.RosterDistrictID, de.RosterEmployeeID order by  de.RosterSiteID, de.ROsterSectorId) RowNumber
-         FROM  OAF_SHARED_DIMENSIONS.dbo.DimRosterEmployee AS de 
-		 full outer  JOIN (select e.*, lo.LocationName, RosterDistrictID from OAF_HR_DATAWAREHOUSE.dbo.Employee AS e join DimLocations lo on e.DimLocationID=lo.LocationID where Source='VIP' and Active=1 and JobGradeCode in ('FO','FM')) e 
+         FROM  dbo.DimRosterEmployee AS de 
+		 full outer  JOIN (select e.*, lo.LocationName, RosterDistrictID from [$(OAF_HR_DATAWAREHOUSE)].dbo.Employee AS e join DimLocations lo on e.DimLocationID=lo.LocationID where Source='VIP' and Active=1 and JobGradeCode in ('FO','FM')) e 
 				ON e.EmployeeID=de.HREmployeeID
-		 LEFT JOIN OAF_SHARED_DIMENSIONS.dbo.DimLocations AS l ON l.RosterDistrictID = de.RosterDistrictID 
-		 LEFT JOIN OAF_SHARED_DIMENSIONS.dbo.DimSite s on s.RosterDistrictID=de.RosterDistrictID and s.RosterSiteID=de.RosterSiteID and IsDeleted=0
-		 LEFT JOIN OAF_SHARED_DIMENSIONS.dbo.DimSector se on se.RosterDistrictId=de.RosterDistrictID and se.RosterSectorID=de.RosterSectorID
+		 LEFT JOIN dbo.DimLocations AS l ON l.RosterDistrictID = de.RosterDistrictID 
+		 LEFT JOIN dbo.DimSite s on s.RosterDistrictID=de.RosterDistrictID and s.RosterSiteID=de.RosterSiteID and IsDeleted=0
+		 LEFT JOIN dbo.DimSector se on se.RosterDistrictId=de.RosterDistrictID and se.RosterSectorID=de.RosterSectorID
 
 		 --Only active in VIP and Roster (then active/inactive check will be 1 and null)
         WHERE (de.EndDate IS NULL) AND AccountType not like '%Bookkeeper')
