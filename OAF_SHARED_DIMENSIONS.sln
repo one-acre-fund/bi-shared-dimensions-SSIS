@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "OAF_SHARED_DIMENSIONS", "OAF_DataWarehouse\OAF_SHARED_DIMENSIONS.dtproj", "{B7B64069-CC0E-4FD4-A5D3-A17A08494266}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Shared_Dimensions_Database_Dev", "Shared_Dimensions_Database_Dev\Shared_Dimensions_Database_Dev.sqlproj", "{F3D76272-B985-4CAB-9A76-0E61A28D0747}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Shared_Dimensions_Database_Dev", "Shared_Dimensions_Database_Dev\Shared_Dimensions_Database_Dev.sqlproj", "{5B1F2191-1464-4397-8ADD-DE05390C38DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,15 +20,15 @@ Global
 		{B7B64069-CC0E-4FD4-A5D3-A17A08494266}.Development|Any CPU.Build.0 = Development
 		{B7B64069-CC0E-4FD4-A5D3-A17A08494266}.Release|Any CPU.ActiveCfg = Development
 		{B7B64069-CC0E-4FD4-A5D3-A17A08494266}.Release|Any CPU.Build.0 = Development
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Development|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Development|Any CPU.Build.0 = Debug|Any CPU
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Development|Any CPU.Deploy.0 = Debug|Any CPU
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3D76272-B985-4CAB-9A76-0E61A28D0747}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
