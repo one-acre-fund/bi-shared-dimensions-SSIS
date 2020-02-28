@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="1/12/2018 11:14:22 AM"
@@ -13,7 +13,7 @@
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
   DTS:VersionBuild="589"
-  DTS:VersionGUID="{6425E4CE-D7FC-4883-BCC4-522B024CA3B7}">
+  DTS:VersionGUID="{1F47CBFC-A621-4F43-B953-4C996949BDB2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -309,8 +309,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="{3700B962-3102-4F82-B170-F158F9E20280}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW Staging]"
+                  connectionManagerID="{3700B962-3102-4F82-B170-F158F9E20280}:invalid"
+                  connectionManagerRefId="{3700B962-3102-4F82-B170-F158F9E20280}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -458,8 +458,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                  connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                  connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1245,8 +1245,8 @@ where [refTable].[ProjectCode] = ? and [refTable].[CountryId] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task 1\Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                  connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                  connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -1408,8 +1408,8 @@ where [refTable].[ProjectCode] = ? and [refTable].[CountryId] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task 1\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="{3700B962-3102-4F82-B170-F158F9E20280}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DW Staging]"
+                  connectionManagerID="{3700B962-3102-4F82-B170-F158F9E20280}:invalid"
+                  connectionManagerRefId="{3700B962-3102-4F82-B170-F158F9E20280}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1617,8 +1617,8 @@ where [refTable].[ProjectCode] = ? and [refTable].[CountryId] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task 1\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                  connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                  connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1924,8 +1924,8 @@ where CountryName = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Country\Load Currency\Currency Update.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -2161,8 +2161,8 @@ where [refTable].[Country] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Country\Load Currency\Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{BD0D6969-0809-4E2E-AE3C-7C93C060C992}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[RosterReporting_Staging]"
+                      connectionManagerID="{BD0D6969-0809-4E2E-AE3C-7C93C060C992}:invalid"
+                      connectionManagerRefId="{BD0D6969-0809-4E2E-AE3C-7C93C060C992}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -2302,8 +2302,8 @@ where [refTable].[Country] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Country\Load Currency\Roster Countries Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -2465,8 +2465,8 @@ where [refTable].[CountryId] = ? and [refTable].[CountryCode] = ? and [refTable]
                   <connections>
                     <connection
                       refId="Package\Dim Country\Load DimCountry\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -2637,8 +2637,8 @@ where [refTable].[CountryId] = ? and [refTable].[CountryCode] = ? and [refTable]
                   <connections>
                     <connection
                       refId="Package\Dim Country\Load DimCountry\Country Info Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -2968,8 +2968,8 @@ where [refTable].[CountryId] = ? and [refTable].[CountryCode] = ? and [refTable]
                   <connections>
                     <connection
                       refId="Package\Dim Country\Load DimCountry\Dim Country.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -3135,8 +3135,8 @@ where [refTable].[CountryId] = ? and [refTable].[CountryCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Country\Load DimCountry\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -3344,8 +3344,8 @@ where CountryId = ? and CountryCode = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Country\Load DimCountry\Update DimCountry.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -3658,7 +3658,7 @@ where [refTable].[RosterRegionId] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Dim Locations\Data Flow Task\388:invalid};</property>
+                      name="ParameterMap">#{Package\Dim Locations\Data Flow Task\389:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3671,8 +3671,8 @@ where [refTable].[RosterRegionId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Data Flow Task\Lookup Region and Country Details.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -3685,7 +3685,7 @@ where [refTable].[RosterRegionId] = ?</property>
                           refId="Package\Dim Locations\Data Flow Task\Lookup Region and Country Details.Inputs[Lookup Input].Columns[RosterRegionID]"
                           cachedDataType="i4"
                           cachedName="RosterRegionID"
-                          lineageId="Package\Dim Locations\Data Flow Task\388:invalid">
+                          lineageId="Package\Dim Locations\Data Flow Task\389:invalid">
                           <properties>
                             <property
                               dataType="System.String"
@@ -3955,8 +3955,8 @@ where [refTable].[LocationName] = ? and [refTable].[LocationCode] = ? and [refTa
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load Roster Locations\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -4135,8 +4135,8 @@ where [refTable].[LocationName] = ? and [refTable].[LocationCode] = ? and [refTa
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load Roster Locations\DimLocation.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -4323,8 +4323,8 @@ where RosterDistrictID = ? and RosterRegionID = ?
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load Roster Locations\DimLocation Update status.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -4552,8 +4552,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterRegionID] = ?</pro
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load Roster Locations\Does the Record Exist.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -4699,8 +4699,8 @@ from [dbo].[DimLocations]</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load Roster Locations\Roster Location Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -4979,8 +4979,8 @@ from [dbo].[DimLocations]</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load SAP Locations\DimLocations.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -5188,8 +5188,8 @@ where [refTable].[LocationCode] = ? and [refTable].[LocationName] = ? and [refTa
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load SAP Locations\Does the Location Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -5360,8 +5360,8 @@ case when SAPActive = 'Y' then 'True' else 'False'  end as SAPActive from CTE</p
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load SAP Locations\SAP Locations.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -5514,8 +5514,8 @@ where LocationCode = ? and LocationName = ? and CountryId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load SAP Locations\Update SAP Active.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -5733,8 +5733,8 @@ where LocationCode = ? and LocationName = ? and CountryId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load Staging\DimLocations Staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -5919,8 +5919,8 @@ from [dbo].[Districts]</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Load Staging\Roster Source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -6208,8 +6208,8 @@ from [dbo].[Districts]</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Set RosterActive to Null\DimLocations.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -6298,8 +6298,8 @@ RosterDistrictID = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Set RosterActive to Null\Inactivate Location.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -6436,8 +6436,8 @@ where [refTable].[RosterDistrictId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Set RosterActive to Null\Roster Location Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -6588,8 +6588,8 @@ where [refTable].[RosterDistrictId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\set SAPActive to Null\DimLocations.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -6718,8 +6718,8 @@ LocationCode = ? and LocationName = ? and CountryId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\set SAPActive to Null\Inactivate location.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -6928,8 +6928,8 @@ where [refTable].[LocationCode] = ? and [refTable].[LocationName] = ? and [refTa
                   <connections>
                     <connection
                       refId="Package\Dim Locations\set SAPActive to Null\SAP Location Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -7165,8 +7165,8 @@ where [refTable].[LocationCode] = ? and [refTable].[LocationName] = ? and [refTa
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Update WebPortalocationId\DimLocations.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -7336,8 +7336,8 @@ where [refTable].[LocationCode] = ? and [refTable].[CountryId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Update WebPortalocationId\Get WebPortal LocationID.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -7471,8 +7471,8 @@ where LocationCode = ? and LocationName = ? and CountryId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Locations\Update WebPortalocationId\Update WebPortalLocationID.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -7820,8 +7820,8 @@ where [refTable].[RegionName] = ? and [refTable].[RegionType] = ? and [refTable]
                   <connections>
                     <connection
                       refId="Package\Dim Region\Load DimRegion\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -8087,8 +8087,8 @@ where [refTable].[RegionName] = ? and [refTable].[RegionType] = ? and [refTable]
                   <connections>
                     <connection
                       refId="Package\Dim Region\Load DimRegion\Dim Region.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -8311,8 +8311,8 @@ Order by CountryID</property>
                   <connections>
                     <connection
                       refId="Package\Dim Region\Load DimRegion\DimRegion Source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -8515,8 +8515,8 @@ where RosterRegionId = ?  and CountryID = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Region\Load DimRegion\DimRegion Update.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -8824,8 +8824,8 @@ where [refTable].[RosterRegionID] = ? and [refTable].[CountryId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Region\Load DimRegion\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -8981,8 +8981,8 @@ where [refTable].[RosterProgramId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Region\Load DimRegion\Get Program and Country Info.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -9360,8 +9360,8 @@ where [refTable].[RosterProgramId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Region\Update WebPortalRegionId\DimRegion.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -9485,8 +9485,8 @@ where [refTable].[RosterRegionId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Region\Update WebPortalRegionId\Get WebPortal RegionId.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -9602,8 +9602,8 @@ where RosterRegionId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Dim Region\Update WebPortalRegionId\Update WebPortalRegionId.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -9843,8 +9843,8 @@ where [refTable].[DepartmentCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Check for Inactive departments\Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -9945,8 +9945,8 @@ where DepartmentCode = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Check for Inactive departments\Update Active Status.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -10065,8 +10065,8 @@ where DepartmentCode = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Check for Inactive departments\Web Expense Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -10147,7 +10147,7 @@ where DepartmentCode = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="ETL Begin"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10239,8 +10239,8 @@ where [refTable].[Active] = ? and [refTable].[ValidFrom] = ? and [refTable].[Val
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Load DimDepartment DW\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -10491,8 +10491,8 @@ where OPRC.dimcode = 2</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Load DimDepartment DW\Department info Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -10749,8 +10749,8 @@ where OPRC.dimcode = 2</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Load DimDepartment DW\DimDepartment Load.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -10929,8 +10929,8 @@ where DepartmentCode = ? and  CountryId = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Load DimDepartment DW\DimDepartments Update.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -11198,8 +11198,8 @@ where [refTable].[DepartmentCode] = ? and [refTable].[CountryId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Load DimDepartment DW\Does the Record Exist.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -11422,7 +11422,7 @@ where [refTable].[DepartmentCode] = ? and [refTable].[CountryId] = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Load the DepartmentType"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -11514,8 +11514,8 @@ where [refTable].[DepartmentCode] = ? and [refTable].[DepartmentName] = ? and [r
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Sync web portal department\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -11699,8 +11699,8 @@ is null then 'False' else 'True' end = 'True'</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Sync web portal department\Department Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -11860,8 +11860,8 @@ where DepartmentCode = ?
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Sync web portal department\Department Update.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -12053,8 +12053,8 @@ where [refTable].[DepartmentCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Sync web portal department\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -12195,8 +12195,8 @@ where [refTable].[DepartmentTypeName] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Sync web portal department\Get DepartmentTypeID.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -12429,8 +12429,8 @@ where [refTable].[DepartmentTypeName] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Sync web portal department\Web Expense Department.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -12575,7 +12575,7 @@ where [refTable].[DepartmentTypeName] = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update Last Modified Date"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12667,8 +12667,8 @@ where [refTable].[DepartmentTypeName] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Update WebPortal DepartmentId\DimDepartments Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -12795,8 +12795,8 @@ where [refTable].[DepartmentCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Update WebPortal DepartmentId\Get WebPortalDepartmentID.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -12916,8 +12916,8 @@ where DepartmentCode = ? </property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Update WebPortal DepartmentId\Update WebPortalDepartmentID.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -13084,8 +13084,8 @@ where DepartmentCode = ? </property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Web Department Type\Department Type.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -13201,8 +13201,8 @@ where DepartmentCode = ? </property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Web Department Type\DepartmentType.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -13330,8 +13330,8 @@ where [refTable].[DepartmentTypeName] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimDepartment\Web Department Type\Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -13604,8 +13604,8 @@ where [refTable].[ProjectId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Check for Active projects\Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -13705,8 +13705,8 @@ where ProjectID = ? </property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Check for Active projects\Update Active Status.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -13824,8 +13824,8 @@ where ProjectID = ? </property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Check for Active projects\Web Expense Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -14011,8 +14011,8 @@ where [refTable].[ProjectId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Check for Inactive Projects\Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -14112,8 +14112,8 @@ where ProjectID = ? </property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Check for Inactive Projects\Update Active Status.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -14231,8 +14231,8 @@ where ProjectID = ? </property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Check for Inactive Projects\Web Expense Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -14310,7 +14310,7 @@ where ProjectID = ? </property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="ETL Begin"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -14402,8 +14402,8 @@ where [refTable].[Active] = ? and [refTable].[ValidFrom] = ? and [refTable].[Val
                   <connections>
                     <connection
                       refId="Package\DimProject\Load DimProject\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -14651,8 +14651,8 @@ where [refTable].[Active] = ? and [refTable].[ValidFrom] = ? and [refTable].[Val
                   <connections>
                     <connection
                       refId="Package\DimProject\Load DimProject\DimProjects.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -14832,8 +14832,8 @@ where ProjectCode = ? and CountryId = ?
                   <connections>
                     <connection
                       refId="Package\DimProject\Load DimProject\DimProjects Update.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -15103,8 +15103,8 @@ where [refTable].[Countryid] = ? and [refTable].[ProjectCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Load DimProject\Does the Project Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -15253,8 +15253,8 @@ on OPRJ.CountryCode = a.CountryCode</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Load DimProject\Project info Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -15648,8 +15648,8 @@ on OPRJ.CountryCode = a.CountryCode</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Set Inactive for Deleted Project\DW Project Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -15794,8 +15794,8 @@ where [refTable].[CountryID] = ? and [refTable].[PrjCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Set Inactive for Deleted Project\Lookup missing project records.Connections[OleDbConnection]"
-                      connectionManagerID="{3700B962-3102-4F82-B170-F158F9E20280}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DW Staging]"
+                      connectionManagerID="{3700B962-3102-4F82-B170-F158F9E20280}:invalid"
+                      connectionManagerRefId="{3700B962-3102-4F82-B170-F158F9E20280}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -15915,8 +15915,8 @@ where ProjectCode=? and CountryID=?</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Set Inactive for Deleted Project\Updated deleted projects to Inactive.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -16120,8 +16120,8 @@ where [refTable].[ProjectCode] = ? and [refTable].[ProjectName] = ? and [refTabl
                   <connections>
                     <connection
                       refId="Package\DimProject\Sync web portal Project\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -16345,8 +16345,8 @@ where [refTable].[ProjectId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Sync web portal Project\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -16486,8 +16486,8 @@ where [refTable].[DepartmentCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Sync web portal Project\Get DepartmentId.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -16641,8 +16641,8 @@ select * from CTE where Active = 'True'</property>
                   <connections>
                     <connection
                       refId="Package\DimProject\Sync web portal Project\Project Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -16840,8 +16840,8 @@ where ProjectId = ?
                   <connections>
                     <connection
                       refId="Package\DimProject\Sync web portal Project\Project Update.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -17058,8 +17058,8 @@ where ProjectId = ?
                   <connections>
                     <connection
                       refId="Package\DimProject\Sync web portal Project\Web Expense Project.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -17207,7 +17207,7 @@ where ProjectId = ?
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update Load End Date"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -17396,8 +17396,8 @@ where [refTable].[RosterDistrictID] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load Roster Seasons Staging\Get CountryID.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -17535,8 +17535,8 @@ FROM  Seasons</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load Roster Seasons Staging\RosterStaging.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -17820,8 +17820,8 @@ FROM  Seasons</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load Roster Seasons Staging\Staging_Seasons.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -18061,8 +18061,8 @@ FROM  Seasons</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load SAP Seasons Staging\SAP Seasons Source.Connections[OleDbConnection]"
-                      connectionManagerID="{5CC91F70-C02B-4849-8FA4-F201D71863C0}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[USA]"
+                      connectionManagerID="{5CC91F70-C02B-4849-8FA4-F201D71863C0}:invalid"
+                      connectionManagerRefId="{5CC91F70-C02B-4849-8FA4-F201D71863C0}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -18223,8 +18223,8 @@ FROM  Seasons</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load SAP Seasons Staging\Sap Seasons staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -18400,8 +18400,8 @@ where [refTable].[CountryId] = ? and [refTable].[SeasonName] = ? and [refTable].
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load Shared Dimensions\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -18613,8 +18613,8 @@ where [refTable].[CountryId] = ? and [refTable].[SeasonName] = ? and [refTable].
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load Shared Dimensions\DimSeasons.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -18813,8 +18813,8 @@ where [refTable].[CountryId] = ? and [refTable].[SeasonName] = ? and [refTable].
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load Shared Dimensions\Does the Record Exist.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -19001,8 +19001,8 @@ order by CountryId</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load Shared Dimensions\Roster Agregated Seasons.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -19282,8 +19282,8 @@ SeasonID = ?
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Load Shared Dimensions\Update DimSeasons.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -19562,8 +19562,8 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Sync Web Seasons\Does the Season Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -19702,8 +19702,8 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Sync Web Seasons\Seasons Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -19878,8 +19878,8 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimSeasons\Sync Web Seasons\WebPortal Season.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -20213,8 +20213,8 @@ where [refTable].[countryid] = ? and [refTable].[SapSeasonId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimSector\Load DimSector Staging\DimSector Staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -20394,8 +20394,8 @@ Order by DistrictId</property>
                   <connections>
                     <connection
                       refId="Package\DimSector\Load DimSector Staging\Roster data Source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -20705,8 +20705,8 @@ where [refTable].[SectorName] = ? and [refTable].[Active] = ? and [refTable].[Go
                   <connections>
                     <connection
                       refId="Package\DimSector\Load Shared Dimensions\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -20932,8 +20932,8 @@ where [refTable].[SectorName] = ? and [refTable].[Active] = ? and [refTable].[Go
                   <connections>
                     <connection
                       refId="Package\DimSector\Load Shared Dimensions\DimSector.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -21151,8 +21151,8 @@ where [refTable].[SectorName] = ? and [refTable].[Active] = ? and [refTable].[Go
                   <connections>
                     <connection
                       refId="Package\DimSector\Load Shared Dimensions\DimSector staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -21405,8 +21405,8 @@ where [refTable].[RosterSectorID] = ? and [refTable].[RosterDistrictID] = ?</pro
                   <connections>
                     <connection
                       refId="Package\DimSector\Load Shared Dimensions\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -21618,8 +21618,8 @@ where RosterDistrictID = ? and RosterSectorID = ? and SectorName = ?
                   <connections>
                     <connection
                       refId="Package\DimSector\Load Shared Dimensions\Update DimSector.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -22026,8 +22026,8 @@ where RosterDistrictID = ? and RosterSectorID = ? and SectorName = ?
                   <connections>
                     <connection
                       refId="Package\DimSite\Check for deleted sites\DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -22169,8 +22169,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ?</prope
                   <connections>
                     <connection
                       refId="Package\DimSite\Check for deleted sites\Sites Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -22288,8 +22288,8 @@ where RosterDistrictID = ? and RosterSiteID = ? and IsDeleted = 0</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Check for deleted sites\Update DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -22454,8 +22454,8 @@ where RosterDistrictID = ? and RosterSiteID = ? and IsDeleted = 0</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Check for Inactive Sites\DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -22597,8 +22597,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ?</prope
                   <connections>
                     <connection
                       refId="Package\DimSite\Check for Inactive Sites\Sites Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -22715,8 +22715,8 @@ where RosterDistrictID = ? and RosterSiteID = ? and Isdeleted = 0</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Check for Inactive Sites\Update DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -22916,8 +22916,8 @@ where [refTable].[FirstName] = ? and [refTable].[LastName] = ? and [refTable].[P
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimRosterEmployee\Check Record changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -23360,8 +23360,8 @@ where [refTable].[FirstName] = ? and [refTable].[LastName] = ? and [refTable].[P
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimRosterEmployee\Load DimRosterEmployee.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -23712,8 +23712,8 @@ where [refTable].[EmployeeCode] = ? and [refTable].[DimCountryID] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimRosterEmployee\Lookup employee info.Connections[OleDbConnection]"
-                      connectionManagerID="{B4E5DCD8-0A74-456B-8AB7-96C2747FD80F}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[HRDatawarehouse]"
+                      connectionManagerID="{B4E5DCD8-0A74-456B-8AB7-96C2747FD80F}:invalid"
+                      connectionManagerRefId="{B4E5DCD8-0A74-456B-8AB7-96C2747FD80F}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -23890,8 +23890,8 @@ where [refTable].[RosterDistrictID] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimRosterEmployee\Lookup shared District.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -24098,8 +24098,8 @@ where [refTable].[RosterSiteID] = ? and [refTable].[RosterDistrictID] = ?</prope
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimRosterEmployee\Lookup Shared Site.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -24251,8 +24251,8 @@ where RowGuid=?
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimRosterEmployee\OLE DB Command.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -24732,8 +24732,8 @@ where [refTable].[rowguid] = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimRosterEmployee\Record exists?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -24965,8 +24965,8 @@ select * from Final</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimRosterEmployee\Roster Employees staging source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -25416,8 +25416,8 @@ select * from Final</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimSite Staging\DimSite Staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -25702,8 +25702,8 @@ order by a.DistrictID,a.SectorID,a.SiteID</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Load DimSite Staging\Roster data Source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -26193,8 +26193,8 @@ where [refTable].[SiteName] = ? and [refTable].[RosterFirstSeason] = ? and [refT
                   <connections>
                     <connection
                       refId="Package\DimSite\Load Shared Dimensions\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -26526,8 +26526,8 @@ where [refTable].[SiteName] = ? and [refTable].[RosterFirstSeason] = ? and [refT
                   <connections>
                     <connection
                       refId="Package\DimSite\Load Shared Dimensions\DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -26860,8 +26860,8 @@ from DimSite</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Load Shared Dimensions\Dimsite Staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -27305,8 +27305,8 @@ RosterSiteID = ? and IsDeleted = 0
                   <connections>
                     <connection
                       refId="Package\DimSite\Load Shared Dimensions\DimSite Update.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -27695,8 +27695,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ?</prope
                   <connections>
                     <connection
                       refId="Package\DimSite\Load Shared Dimensions\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -27854,8 +27854,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[EmployeeID] = ? and [ref
                   <connections>
                     <connection
                       refId="Package\DimSite\Load Shared Dimensions\Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -28172,8 +28172,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[EmployeeID] = ? and [ref
                   <connections>
                     <connection
                       refId="Package\DimSite\Reactivate deleted sites\DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -28315,8 +28315,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ?</prope
                   <connections>
                     <connection
                       refId="Package\DimSite\Reactivate deleted sites\Sites Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -28434,8 +28434,8 @@ where RosterDistrictID = ?  and RosterSiteID = ? and Isdeleted = 1</property>
                   <connections>
                     <connection
                       refId="Package\DimSite\Reactivate deleted sites\Update DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -28544,7 +28544,7 @@ where RosterDistrictID = ?  and RosterSiteID = ? and Isdeleted = 1</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate dimRosteremployee"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -28560,7 +28560,7 @@ where RosterDistrictID = ?  and RosterSiteID = ? and Isdeleted = 1</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Table DimSite"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -28786,8 +28786,8 @@ where RosterDistrictID = ?  and RosterSiteID = ? and Isdeleted = 1</property>
                   <connections>
                     <connection
                       refId="Package\Employees\Employees\OLEDB Staging_Employees.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -29031,8 +29031,8 @@ FROM  Employees</property>
                   <connections>
                     <connection
                       refId="Package\Employees\Employees\Pull roster employees.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -29377,8 +29377,8 @@ from SectorEmployees</property>
                   <connections>
                     <connection
                       refId="Package\Employees\Sector Employees\Pull Sector employees.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -29599,8 +29599,8 @@ from SectorEmployees</property>
                   <connections>
                     <connection
                       refId="Package\Employees\Sector Employees\SectorEmployees.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -29797,8 +29797,8 @@ from SectorEmployees</property>
                   <connections>
                     <connection
                       refId="Package\Employees\Site Employees\OLEDB  staging_siteemployees.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -29963,8 +29963,8 @@ FROM  Employees</property>
                   <connections>
                     <connection
                       refId="Package\Employees\Site Employees\Pull roster siteemployees.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -30276,8 +30276,8 @@ where [refTable].[LocationCode] = ? and [refTable].[CountryId] = ? and [refTable
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Check for inactive locations\DW Active Locations.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -30414,8 +30414,8 @@ where LocationCode = ? and LocationName = ? and CountryId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Check for inactive locations\Set to Inactive.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -30569,8 +30569,8 @@ where LocationCode = ? and LocationName = ? and CountryId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Check for inactive locations\Web portal Locations.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -30766,8 +30766,8 @@ where [refTable].[RosterRegionID] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Check for Inactive Regions\DW Active Regions.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -30870,8 +30870,8 @@ where RosterRegionId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Check for Inactive Regions\Set Inactive flag.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -30989,8 +30989,8 @@ where RosterRegionId = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Check for Inactive Regions\Web portal Regions.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -31068,7 +31068,7 @@ where RosterRegionId = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Set India to Active"
-          DTS:ThreadHint="3">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -31160,8 +31160,8 @@ where [refTable].[LocationName] = ? and [refTable].[CountryID] = ? and [refTable
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Locations\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -31351,8 +31351,8 @@ where [refTable].[CountryId] = ? and [refTable].[LocationCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Locations\Does the Location Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -31498,8 +31498,8 @@ where [refTable].[CountryId] = ? and [refTable].[LocationCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Locations\Location.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -31648,8 +31648,8 @@ where [refTable].[CountryId] = ? and [refTable].[LocationCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Locations\Locations Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -31798,8 +31798,8 @@ where LocationCode = ? and CountryId = ?
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Locations\Update Location.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -32029,8 +32029,8 @@ where [refTable].[RosterRegionID] = ? and [refTable].[CountryId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\sync regionid\Get RegionID.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -32183,8 +32183,8 @@ where [refTable].[RosterRegionID] = ? and [refTable].[CountryId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\sync regionid\Location Souce.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -32312,8 +32312,8 @@ LocationCode = ? and CountryID = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\sync regionid\Update RegionID in Location.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -32515,8 +32515,8 @@ where [refTable].[RegionName] = ? and [refTable].[CountryId] = ? and [refTable].
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Regions\Check for record changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -32705,8 +32705,8 @@ where [refTable].[RosterRegionID] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Regions\Does the Region Exist.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -32835,8 +32835,8 @@ where [refTable].[RosterRegionID] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Regions\Region.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -32975,8 +32975,8 @@ where [refTable].[RosterRegionID] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Regions\Region Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -33122,8 +33122,8 @@ where RosterRegionId = ? </property>
                   <connections>
                     <connection
                       refId="Package\Sync web Locations\Sync Regions\Update Region.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -33406,8 +33406,8 @@ where [refTable].[DistrictCode] = ? and [refTable].[SiteName] = ? and [refTable]
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Check for inactive sites\Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -33574,8 +33574,8 @@ where SiteID = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Check for inactive sites\Update Site.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -33694,8 +33694,8 @@ on a.LocationId = b.LocationId where a.Active = 1</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Check for inactive sites\Web portal Sites.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -33927,8 +33927,8 @@ where [refTable].[Active] = ? and [refTable].[SiteCode] = ? and [refTable].[Site
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Sync Web Portal Sites\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -34121,8 +34121,8 @@ from dimsite where dimsite.active = 1</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Sync Web Portal Sites\DimSite Source.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -34342,8 +34342,8 @@ where [refTable].[SiteID] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Sync Web Portal Sites\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -34483,8 +34483,8 @@ where [refTable].[LocationCode] = ? and [refTable].[CountryId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Sync Web Portal Sites\Get Location ID from WebPortal.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -34646,8 +34646,8 @@ where [refTable].[LocationCode] = ? and [refTable].[CountryId] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Sync Web Portal Sites\Site.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -34773,8 +34773,8 @@ where SiteID = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Sync Web Portal Sites\Update Site.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -35008,8 +35008,8 @@ where SiteID = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Update WebPortalSiteId on DimSite\DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -35231,8 +35231,8 @@ where [refTable].[Sitename] = ? and [refTable].[LocationCode] = ? and [refTable]
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Update WebPortalSiteId on DimSite\Get Web Expesnse SiteID.Connections[OleDbConnection]"
-                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[Web Expense]"
+                      connectionManagerID="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
+                      connectionManagerRefId="{F9E63293-CEAA-4370-AE0A-71A2E159BB33}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -35383,8 +35383,8 @@ where SiteID =  ?</property>
                   <connections>
                     <connection
                       refId="Package\Sync Web Portal sites\Update WebPortalSiteId on DimSite\Update WebPortalSiteID on DimSite.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>

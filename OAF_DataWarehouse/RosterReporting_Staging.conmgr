@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="RosterReporting_Staging"
   DTS:DTSID="{BD0D6969-0809-4E2E-AE3C-7C93C060C992}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="t3eEVRQpGQ=="
-        p4:IV="pY2OG9DuX7U=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">kY9TgARCEzzY+YFto6rO6wTjytOyjV71kUX2vcBJHzSyM8+gsN39dMEOO7ikVvtDzOj2Z155lXshdecIJKs222AfICpgLcytkK771PLG91mCD81UdUnskgwRa4t54fNQ45bm5n7dRXi+3f+diGLKYkIf7ItNwya9hJSmKvTImzQ=</DTS:Password>
+        p4:Salt="ZrvZCvEhLIQ="
+        p4:IV="3n2tF/H8dRmUnCl4o65lFA=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">XuC1cP3PS6LhLuoFa6NCBeMRMKp8GEzyOTANALnslH1jT7nSNWEpnDuKHD4VpVzliLvdSxLYzI/FiHwdpGWbrcVZPR9SEVoL150OucGgVZoxynhLxx8ZlmMaapWwWZAwQPGJvVGaMQSlfqg5pk4DEoFitt8uUzK+nvQStfm5sJA=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

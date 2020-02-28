@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="MtamamultipleDbs"
   DTS:DTSID="{C50B502D-310D-4057-9C1F-339270150FBD}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="4qzfjrovfg=="
-        p4:IV="se5wWR/4vFc=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">SuyGMILSI2BjWlzSiE8CHsOzH8rTi6ha4k+t+aMH4x3Yi13wmy7LRTioqdpk6n8nXJpxGbVpC1ElAOS14I3PH5OelJLHBzboyXLWN0VpS+58/YK4D5HOaA/8rD7oxhrUvTIV4epbm0VOyobySP8d3hmJYvHSmExay0tdjdgCeIw=</DTS:Password>
+        p4:Salt="sN6O0GLxgso="
+        p4:IV="dwaF6rqQjuSw9EUaNsX02g=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">IKZWS2h6pi9gUb6TOaUVRXrqKMrF0UZs0YhvXTuhvj4f16Gqx1gzyiRnfEfv6n+YOwwf4MtZ4dDLuFSrYmjuGNQJgQttw1VmVLeCwJwKPbo8gZrprjQoVmQX6IVAnS3XWwFHkdecOkgaRa8YiI8lLqCbOCDeXIIDN1kCvghQxoA=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="BIBusinessIntell"
   DTS:DTSID="{4F531974-976E-4689-B7CD-AC1B722728C2}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="ynbyVLCMdg=="
-        p4:IV="e2FR4I/o90s=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">mFFkIrUqFnXzpPjh6O3sfrh51yRmrfUajN+ZSYeq+tK9Jaq9ZL5C20O23lstNZ/IEWu9ID4eHtmdmxebYZ7jkdmBv+457/xf94vjbJZFP0fBQiubRVyxCnsx6rtNJPXzOosBz7y410ibiovGP6podYX7epqHI9HkQeDSGmEBNPI=</DTS:Password>
+        p4:Salt="dEPDfikLvew="
+        p4:IV="GRLNP3npEZ62CsZ0QDvfwA=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">nOMpxLPqi3i0avDOr2vtrqqBHYT3w3iiQ1u74cRuMsHgKId6CEDYsIwB1lPKrfLokEdiQV0pAS2nZEVMhbcwjsDLX+CVl+3Y+tClxKTmtxT+bzwQhfJKFUZYOC85Wp5HjiTG/o+nOTb55ei+7pl/hBheGm1D98Bi/37ho2mcZMk=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

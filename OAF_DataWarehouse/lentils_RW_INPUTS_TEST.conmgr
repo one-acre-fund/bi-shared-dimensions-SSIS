@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="lentils_RW_INPUTS_TEST"
   DTS:DTSID="{CF5D95D7-3C56-4583-984E-7381E63D513D}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="ypC0sES23g=="
-        p4:IV="/IT8bVIiOFI=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">xsMsXKBZC5BUoVPk53bDK8FGP8AczJUMbyKmeIzWDlUN/d/TFyfLotqusEpebXMPrkWJn2tTR8zpaZwKUJg1jjG0XHY9EMotbKUZK9XWPWSX9cb6kv1iv58xNXXMrIHw3PWsjmwSHKyu+RWZcnx6E4SeD0kx3JqhRykryV1utpM=</DTS:Password>
+        p4:Salt="BNzeJugicBw="
+        p4:IV="J1GU8uKiUpPGb49Pozgvpw=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">kuEqU5SvZEeA3HLuOAnu6YwCA2W6lsHHBDc1rToXCoCBl4roIXbehH81tBha+4bej327mZoli0wXDtmZnPJxCmftf2ePmahjkaM3yDnhuYRr9ZuW0lBo6zTP5MKmlvXr1joHm9cTKAI1jDMO3YwFoKAfqcMTthLvnNQrSX/Xg/Q=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

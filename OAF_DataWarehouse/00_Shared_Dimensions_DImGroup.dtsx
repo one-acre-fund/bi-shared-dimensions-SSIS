@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="3/5/2018 10:23:12 AM"
@@ -12,8 +12,8 @@
   DTS:ObjectName="00_Shared_Dimensions_DImGroup"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="124"
-  DTS:VersionGUID="{DA9FCD0E-1EAA-444D-AEDD-D9DB53932B53}">
+  DTS:VersionBuild="126"
+  DTS:VersionGUID="{493D8E8B-411B-404D-A36D-E2357A84B918}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -184,8 +184,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimAccount.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -325,8 +325,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimAccount DW.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -502,8 +502,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimClient.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -717,8 +717,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimClient Dw.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1023,8 +1023,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimCurrency.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1158,8 +1158,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimCurrency DW.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1326,8 +1326,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimItem.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -1601,8 +1601,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimItem DW.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -2012,8 +2012,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimVendor.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -2239,8 +2239,8 @@
                   <connections>
                     <connection
                       refId="Package\Copy Warehouse Dimensions\DimVendor\DimVendor DW.Connections[OleDbConnection]"
-                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DataWarehouse]"
+                      connectionManagerID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
+                      connectionManagerRefId="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -2546,7 +2546,7 @@
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Tables Shared Dimensions"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -2641,8 +2641,8 @@
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Check for deleted BundleInputs\DW Dimensions.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -2862,8 +2862,8 @@ where [refTable].[RosterBundleInputID] = ? and [refTable].[BundleID] = ? and [re
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Check for deleted BundleInputs\Source Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -3050,8 +3050,8 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Check for deleted BundleInputs\Update isdeleted.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -3231,7 +3231,7 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="ETL Begin"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -3322,8 +3322,8 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Load BundleInputs Staging\BundleInputs source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -3898,8 +3898,8 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Load BundleInputs Staging\BundleInputs Staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -4311,8 +4311,8 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Load DimBundleInputs\BundleInputs source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -4898,8 +4898,8 @@ where [refTable].[BundleType] = ? and [refTable].[BundleID] = ? and [refTable].[
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Load DimBundleInputs\check for record changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -5376,8 +5376,8 @@ where [refTable].[BundleType] = ? and [refTable].[BundleID] = ? and [refTable].[
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Load DimBundleInputs\DimBundleInputs.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -5791,8 +5791,8 @@ where RosterBundleInputID = ? and  BundleID = ? and BundleType = ? and BundleNam
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Load DimBundleInputs\DimBundleInputs Update.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -6342,8 +6342,8 @@ where [refTable].[BundleType] = ? and [refTable].[BundleID] = ? and [refTable].[
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Load DimBundleInputs\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -6613,7 +6613,7 @@ where [refTable].[BundleType] = ? and [refTable].[BundleID] = ? and [refTable].[
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Load District Information"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -6686,8 +6686,8 @@ where [refTable].[BundleType] = ? and [refTable].[BundleID] = ? and [refTable].[
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Reactivate deleted Bundleinputs\DW Dimensions.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -6883,8 +6883,8 @@ where [refTable].[RosterBundleInputID] = ? and [refTable].[BundleID] = ? and [re
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Reactivate deleted Bundleinputs\Source Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -7053,8 +7053,8 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
                   <connections>
                     <connection
                       refId="Package\DimBundleInputs\Reactivate deleted Bundleinputs\Update isdeleted.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -7213,7 +7213,7 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate BundleInputs"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -7229,7 +7229,7 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update InputID"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -7245,7 +7245,7 @@ RosterBundleInputID = ? and  BundleID = ? and  BundleType = ? and  RosterInputID
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update Load End Date"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -7434,8 +7434,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
                   <connections>
                     <connection
                       refId="Package\DimGroup\Check for Deleted Groups\DimGroup Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -7569,8 +7569,8 @@ where RosterDistrictID = ? and RosterSiteID = ? and RosterGroupId = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimGroup\Check for Deleted Groups\Set to Inactive.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -7722,8 +7722,8 @@ where RosterDistrictID = ? and RosterSiteID = ? and RosterGroupId = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimGroup\Check for Deleted Groups\Shared Dimensions.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -7837,7 +7837,7 @@ where RosterDistrictID = ? and RosterSiteID = ? and RosterGroupId = ?</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="ETL Begin"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -7918,8 +7918,8 @@ where RosterDistrictID = ? and RosterSiteID = ? and RosterGroupId = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimGroup\Load DimGroup Staging\DimGroup staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -8100,8 +8100,8 @@ order by DistrictID, SiteID</property>
                   <connections>
                     <connection
                       refId="Package\DimGroup\Load DimGroup Staging\Roster data Source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -8379,8 +8379,8 @@ where [refTable].[GroupName] = ? and [refTable].[Active] = ? and [refTable].[Ros
                   <connections>
                     <connection
                       refId="Package\DimGroup\Load Shared Dimensions\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -8606,8 +8606,8 @@ where [refTable].[GroupName] = ? and [refTable].[Active] = ? and [refTable].[Ros
                   <connections>
                     <connection
                       refId="Package\DimGroup\Load Shared Dimensions\DimGroup.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -8873,8 +8873,8 @@ where [refTable].[GroupName] = ? and [refTable].[Active] = ? and [refTable].[Ros
                   <connections>
                     <connection
                       refId="Package\DimGroup\Load Shared Dimensions\DimGroup Staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -9127,8 +9127,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
                   <connections>
                     <connection
                       refId="Package\DimGroup\Load Shared Dimensions\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -9356,8 +9356,8 @@ where RosterDistrictID = ? and RosterSiteID = ? and RosterGroupID = ?
                   <connections>
                     <connection
                       refId="Package\DimGroup\Load Shared Dimensions\Update DimGroup.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -9632,8 +9632,8 @@ where RosterDistrictID = ? and RosterSiteID = ? and RosterGroupId = ?</property>
                   <connections>
                     <connection
                       refId="Package\DimGroup\Reactivate Deleted Groups\Activate Deleted Site.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -9804,8 +9804,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
                   <connections>
                     <connection
                       refId="Package\DimGroup\Reactivate Deleted Groups\DimGroup Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -9958,8 +9958,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
                   <connections>
                     <connection
                       refId="Package\DimGroup\Reactivate Deleted Groups\Shared Dimensions.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -10073,7 +10073,7 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Table DiimGroup"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10089,7 +10089,7 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update DistrictID"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10105,7 +10105,7 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update Load End Date"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10140,7 +10140,7 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update SeasonID"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10156,7 +10156,7 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update SiteID"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10323,8 +10323,8 @@ where [refTable].[RosterDistrictID] = ? and [refTable].[RosterSiteID] = ? and [r
                   <connections>
                     <connection
                       refId="Package\DimInputs\DimInputs Staging\DimInputs Staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -10562,8 +10562,8 @@ FROM Inputs</property>
                   <connections>
                     <connection
                       refId="Package\DimInputs\DimInputs Staging\Roster Source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -10831,7 +10831,7 @@ FROM Inputs</property>
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="ETL Begin"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10923,8 +10923,8 @@ where [refTable].[InputCategory] = ? and [refTable].[InputType] = ? and [refTabl
                   <connections>
                     <connection
                       refId="Package\DimInputs\Load DimInputs\Check for Record Changes.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -11218,8 +11218,8 @@ FROM Inputs</property>
                   <connections>
                     <connection
                       refId="Package\DimInputs\Load DimInputs\Dim Input Source.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -11527,8 +11527,8 @@ FROM Inputs</property>
                   <connections>
                     <connection
                       refId="Package\DimInputs\Load DimInputs\DimInputs.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -11765,8 +11765,8 @@ where [refTable].[InputCategory] = ? and [refTable].[InputType] = ? and [refTabl
                   <connections>
                     <connection
                       refId="Package\DimInputs\Load DimInputs\Does the Record Exist?.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="Connection manager used to access lookup data."
                       name="OleDbConnection" />
                   </connections>
@@ -12014,8 +12014,8 @@ RosterInputID = ? and InputCategory = ? and InputType = ? and InputName = ?</pro
                   <connections>
                     <connection
                       refId="Package\DimInputs\Load DimInputs\Update DimInputs.Connections[OleDbConnection]"
-                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS]"
+                      connectionManagerID="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
+                      connectionManagerRefId="{F1117407-6E68-49E3-8E8F-878612073469}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -12311,7 +12311,7 @@ RosterInputID = ? and InputCategory = ? and InputType = ? and InputName = ?</pro
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate DimInputs Staging"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12327,7 +12327,7 @@ RosterInputID = ? and InputCategory = ? and InputType = ? and InputName = ?</pro
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Update Load End Date"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12466,8 +12466,8 @@ FROM  Employees</property>
                   <connections>
                     <connection
                       refId="Package\SiteEmployees and Employees\Employees staging\Employees roster source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -12763,8 +12763,8 @@ FROM  Employees</property>
                   <connections>
                     <connection
                       refId="Package\SiteEmployees and Employees\Employees staging\Load employees staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -12997,8 +12997,8 @@ FROM  Employees</property>
                   <connections>
                     <connection
                       refId="Package\SiteEmployees and Employees\Load SiteEmployees Staging\SiteEmployees Source.Connections[OleDbConnection]"
-                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[BIBusinessIntell]"
+                      connectionManagerID="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
+                      connectionManagerRefId="{4F531974-976E-4689-B7CD-AC1B722728C2}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -13219,8 +13219,8 @@ FROM  Employees</property>
                   <connections>
                     <connection
                       refId="Package\SiteEmployees and Employees\Load SiteEmployees Staging\SiteEmployees Staging.Connections[OleDbConnection]"
-                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[OAF_SHARED_DIMENSIONS_Staging]"
+                      connectionManagerID="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
+                      connectionManagerRefId="{7AED1132-D5A3-4B5D-9DB6-56ED94FF62D6}:invalid"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -13465,69 +13465,57 @@ FROM  Employees</property>
           PanelSize="304.571428571429,314.285714285715"
           Size="238.666666666667,42.6666666666667"
           Id="Package\Copy Warehouse Dimensions"
-          TopLeft="1003.63094493993,96.9424427873482" />
+          TopLeft="260.833333333333,108.166666666666" />
         <NodeLayout
           Size="228,42.6666666666667"
           Id="Package\DimBundleInputs\Check for deleted BundleInputs"
-          TopLeft="103.91666197901,671.766655190985" />
+          TopLeft="6.83333333333343,719.5" />
         <NodeLayout
           Size="126,42"
           Id="Package\DimBundleInputs\ETL Begin"
-          TopLeft="231.002278067957,175.989349922609" />
+          TopLeft="57.8333333333334,209.5" />
         <NodeLayout
           Size="206,42"
           Id="Package\DimBundleInputs\Load BundleInputs Staging"
-          TopLeft="40.2358367229839,116.968956582759" />
+          TopLeft="17.8333333333333,107.5" />
         <NodeLayout
           Size="186,42"
           Id="Package\DimBundleInputs\Load DimBundleInputs"
-          TopLeft="64.8316321837676,257.980098093356" />
+          TopLeft="27.8333333333334,311.5" />
         <NodeLayout
           Size="196,42"
           Id="Package\DimBundleInputs\Load District Information"
-          TopLeft="82.9744888259771,581.145045761127" />
+          TopLeft="22.8333333333334,617.5" />
         <NodeLayout
           Size="230.666666666667,42.6666666666667"
           Id="Package\DimBundleInputs\Reactivate deleted Bundleinputs"
-          TopLeft="111.833328527709,763.899987842441" />
+          TopLeft="5.5000000000001,822.166666666667" />
         <NodeLayout
           Size="186.666666666667,42"
           Id="Package\DimBundleInputs\Truncate BundleInputs"
-          TopLeft="46.5850432403867,15.4605244934218" />
+          TopLeft="27.5,5.5" />
         <NodeLayout
           Size="152,42"
           Id="Package\DimBundleInputs\Update InputID"
-          TopLeft="105.892289715381,468.862556341849" />
+          TopLeft="44.8333333333334,515.5" />
         <NodeLayout
           Size="186,42"
           Id="Package\DimBundleInputs\Update Load End Date"
-          TopLeft="85.8633850504688,366.330343349135" />
+          TopLeft="27.8333333333334,413.5" />
         <EdgeLayout
           Id="Package\DimBundleInputs.PrecedenceConstraints[Constraint]"
-          TopLeft="157.831632183768,299.980098093356">
+          TopLeft="120.833333333333,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="21.0317528667012,66.3502452557791"
+              EndConnector="0,60"
               Start="0,0"
-              End="21.0317528667012,58.8502452557791">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.1751226278896" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,29.1751226278896"
-                    Point2="0,33.1751226278896"
-                    Point3="4,33.1751226278896" />
-                  <mssgle:LineSegment
-                    End="17.0317528667012,33.1751226278896" />
-                  <mssgle:CubicBezierSegment
-                    Point1="17.0317528667012,33.1751226278896"
-                    Point2="21.0317528667012,33.1751226278896"
-                    Point3="21.0317528667012,37.1751226278896" />
-                  <mssgle:LineSegment
-                    End="21.0317528667012,58.8502452557791" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13538,18 +13526,18 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DimBundleInputs.PrecedenceConstraints[Constraint 1]"
-          TopLeft="181.433389270679,510.862556341849">
+          TopLeft="120.833333333333,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,70.282489419278"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,62.782489419278">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.782489419278" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13560,18 +13548,18 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DimBundleInputs.PrecedenceConstraints[Constraint 2]"
-          TopLeft="141.6961542674,57.746238779136">
+          TopLeft="120.833333333333,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.2227178036231"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,51.7227178036231">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,51.7227178036231" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13582,24 +13570,18 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DimBundleInputs.PrecedenceConstraints[Constraint 3]"
-          TopLeft="246.521551008698,138.111813725616">
+          TopLeft="120.833333333333,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="47.6235842021161,37.8775361969926"
+              EndConnector="0,60"
               Start="0,0"
-              End="47.6235842021161,30.3775361969926">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="43.6235842021161,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="43.6235842021161,0"
-                    Point2="47.6235842021161,0"
-                    Point3="47.6235842021161,4" />
-                  <mssgle:LineSegment
-                    End="47.6235842021161,30.3775361969926" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13610,30 +13592,18 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DimBundleInputs.PrecedenceConstraints[Constraint 4]"
-          TopLeft="294.002278067957,217.989349922609">
+          TopLeft="120.833333333333,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-136.170645884189,39.9907481707465"
+              EndConnector="0,60"
               Start="0,0"
-              End="-136.170645884189,32.4907481707465">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.9953740853733" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.9953740853733"
-                    Point2="0,19.9953740853733"
-                    Point3="-4,19.9953740853733" />
-                  <mssgle:LineSegment
-                    End="-132.170645884189,19.9953740853733" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-132.170645884189,19.9953740853733"
-                    Point2="-136.170645884189,19.9953740853733"
-                    Point3="-136.170645884189,23.9953740853733" />
-                  <mssgle:LineSegment
-                    End="-136.170645884189,32.4907481707465" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13644,18 +13614,18 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DimBundleInputs.PrecedenceConstraints[Constraint 5]"
-          TopLeft="180.377837382925,408.330343349135">
+          TopLeft="120.833333333333,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.5322129927148"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,53.0322129927148">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53.0322129927148" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13666,30 +13636,18 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DimBundleInputs.PrecedenceConstraints[Constraint 6]"
-          TopLeft="180.974488825977,623.145045761127">
+          TopLeft="120.833333333333,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="36.9421731530326,48.6216094298577"
+              EndConnector="0,60"
               Start="0,0"
-              End="36.9421731530326,41.1216094298577">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.3108047149289" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.3108047149289"
-                    Point2="0,24.3108047149289"
-                    Point3="4,24.3108047149289" />
-                  <mssgle:LineSegment
-                    End="32.9421731530326,24.3108047149289" />
-                  <mssgle:CubicBezierSegment
-                    Point1="32.9421731530326,24.3108047149289"
-                    Point2="36.9421731530326,24.3108047149289"
-                    Point3="36.9421731530326,28.3108047149289" />
-                  <mssgle:LineSegment
-                    End="36.9421731530326,41.1216094298577" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13700,30 +13658,18 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DimBundleInputs.PrecedenceConstraints[Constraint 7]"
-          TopLeft="217.91666197901,714.433321857651">
+          TopLeft="120.833333333333,762.166666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="9.24999988203245,49.4666659847895"
+              EndConnector="0,60.0000000000001"
               Start="0,0"
-              End="9.24999988203245,41.9666659847895">
+              End="0,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.7333329923948" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.7333329923948"
-                    Point2="0,24.7333329923948"
-                    Point3="4,24.7333329923948" />
-                  <mssgle:LineSegment
-                    End="5.24999988203245,24.7333329923948" />
-                  <mssgle:CubicBezierSegment
-                    Point1="5.24999988203245,24.7333329923948"
-                    Point2="9.24999988203245,24.7333329923948"
-                    Point3="9.24999988203245,28.7333329923948" />
-                  <mssgle:LineSegment
-                    End="9.24999988203245,41.9666659847895" />
+                    End="0,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13735,10 +13681,10 @@ FROM  Employees</property>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="476,872"
-          Size="476,914.666666666667"
+          PanelSize="241.333333333334,920"
+          Size="241.333333333334,962.666666666667"
           Id="Package\DimBundleInputs"
-          TopLeft="210.499996945262,526.727739482777" />
+          TopLeft="5.50000000000018,313.499999999999" />
         <NodeLayout
           Size="200,42"
           Id="Package\DimGroup\Check for Deleted Groups"
@@ -14075,11 +14021,11 @@ FROM  Employees</property>
         </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
-          IsExpanded="False"
+          IsExpanded="True"
           PanelSize="590,749.333333333334"
-          Size="148.666666666667,42.6666666666667"
+          Size="590,792"
           Id="Package\DimGroup"
-          TopLeft="306.146824584522,316.201031055786" />
+          TopLeft="51.8333333333334,108.166666666666" />
         <NodeLayout
           Size="166.666666666667,42"
           Id="Package\DimInputs\DimInputs Staging"
@@ -14232,7 +14178,7 @@ FROM  Employees</property>
           PanelSize="394.666666666667,508"
           Size="150,42.6666666666667"
           Id="Package\DimInputs"
-          TopLeft="454.833326876163,402.747615622736" />
+          TopLeft="51.1666666666668,210.833333333333" />
         <NodeLayout
           Size="168,42.6666666666667"
           Id="Package\SiteEmployees and Employees\Employees staging"
@@ -14321,35 +14267,23 @@ FROM  Employees</property>
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="359.333333333334,250"
-          Size="359.333333333334,42.6666666666667"
+          Size="244.666666666667,42.6666666666667"
           Id="Package\SiteEmployees and Employees"
-          TopLeft="525.309519388846,5.50000000000003" />
+          TopLeft="257.833333333333,5.49999999999993" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="646.420630499957,48.1666666666667">
+          TopLeft="343.777777777778,48.1666666666666">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-265.940472582102,268.034364389119"
+              EndConnector="0,59.9999999999994"
               Start="0,0"
-              End="-265.940472582102,260.534364389119">
+              End="0,52.4999999999994">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,103.926655775449" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,103.926655775449"
-                    Point2="0,107.926655775449"
-                    Point3="-4,107.926655775449" />
-                  <mssgle:LineSegment
-                    End="-261.940472582102,107.926655775449" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-261.940472582102,107.926655775449"
-                    Point2="-265.940472582102,107.926655775449"
-                    Point3="-265.940472582102,111.926655775449" />
-                  <mssgle:LineSegment
-                    End="-265.940472582102,260.534364389119" />
+                    End="0,52.4999999999994" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14360,30 +14294,30 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="380.480157917855,358.867697722453">
+          TopLeft="346.833333333333,900.166666666666">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="149.353168958308,43.8799179002834"
+              EndConnector="-220.666666666667,-689.333333333333"
               Start="0,0"
-              End="149.353168958308,36.3799179002834">
+              End="-220.666666666667,-681.833333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.9399589501417" />
+                    End="0,-340.666666666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,17.9399589501417"
-                    Point2="0,21.9399589501417"
-                    Point3="4,21.9399589501417" />
+                    Point1="0,-340.666666666667"
+                    Point2="0,-344.666666666667"
+                    Point3="-4,-344.666666666667" />
                   <mssgle:LineSegment
-                    End="145.353168958308,21.9399589501417" />
+                    End="-216.666666666667,-344.666666666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="145.353168958308,21.9399589501417"
-                    Point2="149.353168958308,21.9399589501417"
-                    Point3="149.353168958308,25.9399589501417" />
+                    Point1="-216.666666666667,-344.666666666667"
+                    Point2="-220.666666666667,-344.666666666667"
+                    Point3="-220.666666666667,-348.666666666667" />
                   <mssgle:LineSegment
-                    End="149.353168958308,36.3799179002834" />
+                    End="-220.666666666667,-681.833333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14394,30 +14328,18 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="529.833326876163,445.414282289403">
+          TopLeft="126.166666666667,253.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-81.3333299309012,81.313457193374"
+              EndConnector="0,59.9999999999999"
               Start="0,0"
-              End="-81.3333299309012,73.813457193374">
+              End="0,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.656728596687" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.656728596687"
-                    Point2="0,40.656728596687"
-                    Point3="-4,40.656728596687" />
-                  <mssgle:LineSegment
-                    End="-77.3333299309012,40.656728596687" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-77.3333299309012,40.656728596687"
-                    Point2="-81.3333299309012,40.656728596687"
-                    Point3="-81.3333299309012,44.656728596687" />
-                  <mssgle:LineSegment
-                    End="-81.3333299309012,73.813457193374" />
+                    End="0,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14428,30 +14350,30 @@ FROM  Employees</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="763.531741611068,48.1666666666667">
+          TopLeft="419.611111111111,48.1666666666666">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="359.432536662195,48.7757761206815"
+              EndConnector="-39.4444444444445,59.9999999999999"
               Start="0,0"
-              End="359.432536662195,41.2757761206815">
+              End="-39.4444444444445,52.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.6400428413531" />
+                    End="0,20.2338927991337" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,15.6400428413531"
-                    Point2="0,19.6400428413531"
-                    Point3="4,19.6400428413531" />
+                    Point1="0,20.2338927991337"
+                    Point2="0,24.2338927991337"
+                    Point3="-4,24.2338927991337" />
                   <mssgle:LineSegment
-                    End="355.432536662195,19.6400428413531" />
+                    End="-35.4444444444445,24.2338927991337" />
                   <mssgle:CubicBezierSegment
-                    Point1="355.432536662195,19.6400428413531"
-                    Point2="359.432536662195,19.6400428413531"
-                    Point3="359.432536662195,23.6400428413531" />
+                    Point1="-35.4444444444445,24.2338927991337"
+                    Point2="-39.4444444444445,24.2338927991337"
+                    Point3="-39.4444444444445,28.2338927991337" />
                   <mssgle:LineSegment
-                    End="359.432536662195,41.2757761206815" />
+                    End="-39.4444444444445,52.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

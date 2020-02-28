@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="OAF_SHARED_DIMENSIONS"
   DTS:DTSID="{F1117407-6E68-49E3-8E8F-878612073469}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="q470ZzJrZA=="
-        p4:IV="cIOQo7PmKVw=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">dqTfnxwg1ipbeZT8KUfFsNHujLjQtDqkhX1+yAYRj8JJ3au8k2MxpZ8Mq6NSFN+Mecfa5fWfV64ZWhje27HmbdgHc2A5LXgwTh7Y8eT+gd9mYbZJz9B50X3IWSnpD8bZh4QCPBamgZs4abet7q9dlLeGVCJ9Lkk5QLGfpUox0m4=</DTS:Password>
+        p4:Salt="9HyDy2lU8PA="
+        p4:IV="1f1+CJTFVhMX9WRmbFltbA=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">as+iGmu8snsmJN5KljQRp1zBaVprvvrZl82D73eXMuYaaIgTbwlvulRvBdTCKNLmMNjkGVKdWYxkMg1Vo6NqbJO3K8kzUGpH6E8CpIdAanBEwAFB4uQ1fr4KX+8VhmFVqWqPsz5arAdN5GsKkdd8m8mNrgUsTG8PCZ7Jsskf6YM=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

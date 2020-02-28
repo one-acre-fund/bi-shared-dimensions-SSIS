@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="Test_Warehouse"
   DTS:DTSID="{85F7C732-BB6B-474B-A1AB-2CEE8DE351BB}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="KR1rKhNSVg=="
-        p4:IV="rGxqJ8LV2oM=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">Dl3PHLBNxa4Ld+ij5JPZtcSlEB9ZuhMJTwoJFj0bZ2OzCKyaSt9M2cjXy9SbpAhsmNcUDOM2cMovhG9CuhmyoejDebQ+9mr12kvwn/06JJV0uyjLlj2EaZM1jani48sDXvVYd9l82h4DHNYJEhvx1lqDTykewE5iRd72e6eopc0=</DTS:Password>
+        p4:Salt="xjmznXWbgZ4="
+        p4:IV="YbO6DO8EQP22zhHHnWh5rg=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">ZUgFke58pKuaMbbT+n/0DyzBuUWr5zQGULHYdDXU/mc+YElqp5Xf2aocRCaRlPfX71YXl5xYIWhmmp1yQYt2/0s11CMFrYSkLahSvMPLB1DnUt6ww3IGIFrmgrpNWEKbzRPP5okBsREodNayIdQCeXE800TNqV5l/c8JWJdEPCA=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

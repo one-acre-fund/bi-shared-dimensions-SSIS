@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">SCOTTS-LENOVO-D</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="mEL3B9Rhbg==" SSIS:IV="a7cIRKmviHg=">Ura+JK7PeV28K/aS20WDoliHK7LplrtvouUFmeLN+uYgEa4T8gNLzJJK7lq4aJNhbVHqDa56WJHwtjlBWDZFtInUlkdsCKMj/QMvYasIpLJGIecxAstCiwTOmT0C5EOFfswU4yykvDipqU12Gt6SsVl1zZNs4FKBKGfPlNEcVmlVz2AlxPa0nQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="uPPsUAZCzwA=" SSIS:IV="AZHHa7/tYE+rBn9gtmLgqg==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">adOZl3aPvJhg8Pyn8rymCIn6Jnqkav4dJFYNIELQQ5MAmNmDcjjxCIwzTup3XrLDDX922kVOn52ZRZ73gjOjdaNKg19SWor8kq3om0jANK+cnGlMvRfjntN1qlTM332GE7RdNIsd3NGKm76vl3e05I9IPYtjsPefcKNuD3thE8Ubxmxx+zvEmGn76yYK8Jom</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -3661,10 +3661,10 @@
                 <SSIS:Property SSIS:Name="Name">00_Shared_Dimensions_DImGroup</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">92</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">126</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{3DE9B7F1-58EB-4330-94CF-4060135437C8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{32FC9AFD-37F7-4E35-83D9-3FC70CAB3458}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -3688,7 +3688,7 @@
         <ConnectionProviderMappings />
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
-        <TargetServerVersion>SQLServer2016</TargetServerVersion>
+        <TargetServerVersion>SQLServer2017</TargetServerVersion>
         <ParameterConfigurationValues>
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>

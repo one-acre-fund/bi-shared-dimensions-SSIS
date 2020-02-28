@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="Millet_SSAS"
   DTS:DTSID="{CCDD9121-8241-420C-B002-CC5FA301AB70}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="5v8i6suajQ=="
-        p4:IV="2T9eY/lqO1M=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">7GVc/wPo3y+S0LEHB1Cy8nU1WP4NgboWJ17wdmjAXThTSnJRqH3MGAKcjNqAIeU0kHA2DbS56QBm2Kjr19BLvm90XwRrNU+r4g8j6myVqwIdEPNPfHbNCguBoASLwYwrfK0B6U0VEf2XVu9/Y6YOHBvCXdbAlkw1MTO5z06n2+I=</DTS:Password>
+        p4:Salt="j752mu7zG44="
+        p4:IV="i0hAt4Q9goYWjmZDnOfYOQ=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">ZrPiEN0wBsZ2kqRW6RADFO38xP4L8Uyl7thbcQmw0K0CfDOeKF9IkD43Rmv8sgqSs101fxTtlPHmiWqsJBytJVFlc1CYJrtsOAsYqdAtrv7Nex7Ll2l8ZGC8gKImaboUPKf74wBvq8Tl089XPvHtO7F7glQQJ5s7yuMbThKdJnA=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

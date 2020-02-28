@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="TEST_SHARED_DIMENSIONS"
   DTS:DTSID="{68799AAD-3CB4-4862-90D1-062877595A08}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="ubuUWwPciw=="
-        p4:IV="S3DH/vcBmx4=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">lwjqOuWvHhmZmBqFHUnOQb++sKR9FmNXpisyEeLlspXAB/kMfjKzguSBEb1hgrelAKD2rtBg21pLytr1qNjaJbQDThKZlphKdWY4m75YjrLDSSRpgEGvXzJPdrGzTH9Vy9OSoPyWUxawYbUCV/XDbDDc/3AvkmspQcwnxYWY1o4=</DTS:Password>
+        p4:Salt="7PTWRfqyZV8="
+        p4:IV="hAQSnxYKWKELfBpEmS/uBw=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">/NAsE02xX+ankal6Ro4csAMQsNtPFexlikHmgs8udlu3n7py87LMkOWVjGkOnhF2YHoiBeVZHCwbusHZZ0MEB8aXrMTR8XQ5ht7cHKC0tDV1si/995m3ftaM9DfSsv3tvk+0hOBu6dQE9qcVr7eeZt/rHldKi1MHvztDWQSMVpI=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

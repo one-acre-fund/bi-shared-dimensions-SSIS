@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="lentils_KEPL11"
   DTS:DTSID="{437397C9-568B-4A0C-83C4-581DDF63E542}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="P5Rq9f4dWg=="
-        p4:IV="9IsfK+hhgPY=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">w6JVNMkvJyPueAGU1djU5DAxFf4JHn3bF2hTSbIxCAwGY6eNUSkSmvNnfRbJhM18XQjAy7CMD2Gw9x920ywprv63GOEZ3g/xgM93YbkPzXjuCh9+/YYYzd2JWmf2l1W/vbRuhIJWorcSB4J1ADJYVEhvJwY5gbPDjTGXa0zR4tM=</DTS:Password>
+        p4:Salt="LPL2pIyKaW4="
+        p4:IV="wuKxmlt3ZHbbaihV973ITw=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">ADfnttT16z9KcegoliFP5f+HyXv5B9WiIPCpvK/WiLc3Y8uIftVfEhVYazbZI65CsDXsD7uQXzjy+Jfot0aU004Rl08Id2H0Kxl92hkzkKW0gmc52RJiPVWiHLlHvkDBMbIY56cC7tiX0I2NVAcDFPlsMpXi6P1H8JnFibvfkcY=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

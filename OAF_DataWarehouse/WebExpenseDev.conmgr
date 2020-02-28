@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="WebExpenseDev"
   DTS:DTSID="{784D2911-0387-43ED-B1DE-193FB0981AF8}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="LVt4xit6pA=="
-        p4:IV="V8CUGjNHsKE=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">wsHfnbhbiRP9yPLe5QPT5MHyaLI/HB3aEYg4Si3BHqHM+fGOfqJuhgO3Dmj2LTXQTNloZoWL+f0MRW+/d9KuYsG2jHkhRCfDH8C12wYNGvP3jqRCM92RzwZC6aZU4N/2GO1jKixCuf7ToboGNid/VLEoln9c4VId4MKdrjO9/00=</DTS:Password>
+        p4:Salt="hw8FfH1BE/0="
+        p4:IV="nuXMd0ivshKlYdpVnq0FGA=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">dMO5DTImAJpFDSV3+vvTqQz/lBWlPy9gF+i3XZ9Uut5CW0PumFK1ufPDdxLvXQLV0Jo83sa/JUbdQeWf9lgXnahk/FvDAQ7Qmq1FRc+lM9RCP//dkQ9RBDie6Rtz1R/f4rsavFtlxPx+rjQZOHmW/4hKfiH9ZdoPs3CdVLKreRs=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

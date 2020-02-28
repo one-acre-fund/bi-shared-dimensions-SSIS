@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="India"
   DTS:DTSID="{2193E97F-944F-4E03-92D9-F25237C12C3E}"
@@ -9,8 +9,9 @@
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="peuVZdR+Rw=="
-        p4:IV="VZhVgpGWZ40=" xmlns:p4="www.microsoft.com/SqlServer/SSIS">z1xUg0GyyoPnjor3g8E5qsaS2qh9yVdmDEkhr9oQ87/kQiDF5qwNU+B4KP3eEpzeMPj6onum372vae2GH26N4wlRkCB0dvkMd66sSWAhnLct9RfCdcS3IabLhew5tw+adDBB3ZjBip6JczL6A3ThGAxH0uujVQMIWXcYRQg3nm0=</DTS:Password>
+        p4:Salt="HZNVq/3UaPw="
+        p4:IV="l9XZllmTI7FXif8XRd9vkA=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">dH6Hn1F04nm9YQ1S/scnOOvaDEHSbikDQl1yW7jAFkpNmtHG9mOEN6Vgkb4gwSU19gGqBf9yxvOtcOloJ/WILdq3So/dh0drnQMuaWzIID9slFpZRIhiZdh3DGy2f4PT0oCMoidoUivlcOvWENukG17eRJ4nQ6DMtjww7ACq03I=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
