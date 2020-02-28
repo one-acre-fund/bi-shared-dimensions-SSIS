@@ -5,13 +5,6 @@
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=78.47.206.136,50000;User ID=FinanceReadOnly;Initial Catalog=RosterDataWarehouse;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-      <DTS:Password
-        DTS:Name="Password"
-        Sensitive="1"
-        p4:Salt="YxfoNdO1pDc="
-        p4:IV="lShskIFNEZOwRCGvZqaw7w=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">A/ADd3xZtfUuV6TCxu5qP3ORLj1Qp3cCzs1i9kgj6lQ0pALGGpMPxL/mcrvls5KED/quhHpYP0mx2sBoxjao0SBzgGtu+RhzeAfrsmOClDpXrsTQYcUWu3scjOpCAvQiiESyt+lX9ycBx2p7xnN18mR9PFQKbpYJ2dpKCGu9+uxXzjwlTbcZ9x3+IK3qXxoi</DTS:Password>
-    </DTS:ConnectionManager>
+      DTS:ConnectionString="Data Source=78.47.206.136,50000;User ID=FinanceReadOnly;Initial Catalog=RosterDataWarehouse;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>

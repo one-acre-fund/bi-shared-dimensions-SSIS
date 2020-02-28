@@ -5,13 +5,6 @@
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=oaffinance.database.windows.net;User ID=SSIS0001;Initial Catalog=OafBackOfficeDev;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-      <DTS:Password
-        DTS:Name="Password"
-        Sensitive="1"
-        p4:Salt="Tosl8IMxWKQ="
-        p4:IV="QcGGSEnhEaO3XHlRvYwnwg=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">zl9R3sbP9AXNzsiFB4Bg6+nlOalsgh7S3wgLkjqGdWnHXxtBFhZ11FXLF42MlhH16U/qKS+ppDClPgT2i1ijblfugvi2WGf2bkNAqd4JndjWLv6HUX37kSOEBasgW7YESMl14MkqgwHkdRG2C7lUyzhRO2X09mHQ3KIJ/V9twtg=</DTS:Password>
-    </DTS:ConnectionManager>
+      DTS:ConnectionString="Data Source=oaffinance.database.windows.net;User ID=SSIS0001;Initial Catalog=OafBackOfficeDev;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>

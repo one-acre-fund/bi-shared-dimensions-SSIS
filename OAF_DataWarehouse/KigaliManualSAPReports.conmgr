@@ -5,13 +5,6 @@
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=grains.oneacrefund.org,3341;User ID=BOSSIS0001;Initial Catalog=ManualSAPReports;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-      <DTS:Password
-        DTS:Name="Password"
-        Sensitive="1"
-        p4:Salt="iGLXYFI0X2k="
-        p4:IV="1ipX6C2oiel7sDkW8odp0A=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">vJZVoLNKJTdWHNuon+7sSyGcbBf7MXMAwXuRNfziYO20vJwTjJr4dnPqbpECPDzXLxRslpEB4estDxE1G+uvJN05g8//XDN0Dt+OKvdH6qonV0agctihx5R+2Y6TQ5/+mFcMENSBY2zTv4yscFzZNcQakZ5p1a8dT2058PWcrH0=</DTS:Password>
-    </DTS:ConnectionManager>
+      DTS:ConnectionString="Data Source=grains.oneacrefund.org,3341;User ID=BOSSIS0001;Initial Catalog=ManualSAPReports;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>
