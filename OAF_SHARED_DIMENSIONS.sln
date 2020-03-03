@@ -7,6 +7,8 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "OAF_SHARED_DIMENSIONS", "OA
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Shared_Dimensions_Database_Dev", "Shared_Dimensions_Database_Dev\Shared_Dimensions_Database_Dev.sqlproj", "{5B1F2191-1464-4397-8ADD-DE05390C38DA}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Shared_Dimensions_Database_Prod", "Shared_Dimensions_Database_Prod\Shared_Dimensions_Database_Prod.sqlproj", "{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,15 @@ Global
 		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B1F2191-1464-4397-8ADD-DE05390C38DA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F467BA-B5F6-470E-A1B5-ABE9CA8F70B6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,14 +7,14 @@
     <Name>Shared_Dimensions_Database_Prod</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{6de2c354-5973-4b27-92b7-7338cfa46dc3}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <ProjectGuid>{d6f467ba-b5f6-470e-a1b5-abe9ca8f70b6}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql140DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
     <RootNamespace>Shared_Dimensions_Database_Prod</RootNamespace>
     <AssemblyName>Shared_Dimensions_Database_Prod</AssemblyName>
-    <ModelCollation>1033, CI</ModelCollation>
+    <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -23,6 +23,8 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -57,5 +59,102 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="Security\" />
+    <Folder Include="dbo\Functions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\DimBundleInputs_1.sql" />
+    <Build Include="dbo\Tables\DimSeasons_1.sql" />
+    <Build Include="dbo\Tables\ClientsNames_1.sql" />
+    <Build Include="dbo\Tables\ETL_LoadLog_1.sql" />
+    <Build Include="dbo\Tables\ClientPhoneNumbers_1.sql" />
+    <Build Include="dbo\Tables\DimRosterSeason_1.sql" />
+    <Build Include="dbo\Tables\FuzzyLookupMatchIndex_FLRef_180928_12_50_16_10308_4e0dfb96-949a-4ae6-bb8e-69de162c5092_1.sql" />
+    <Build Include="dbo\Tables\FuzzyLookupMatchIndex_1.sql" />
+    <Build Include="dbo\Tables\DimCountry_1.sql" />
+    <Build Include="dbo\Tables\FuzzyLookupMatchIndex_FLRef_180928_12_56_28_24792_a3e214d0-387d-4c73-9b15-f2eab9d17f3c_1.sql" />
+    <Build Include="dbo\Tables\DBLogins_1.sql" />
+    <Build Include="dbo\Tables\DimDate_1.sql" />
+    <Build Include="dbo\Tables\ClientsChanged_test_1.sql" />
+    <Build Include="dbo\Tables\DimRosterClient_1.sql" />
+    <Build Include="dbo\Tables\AgroEcologicalZones_1.sql" />
+    <Build Include="dbo\Tables\DimDepartments_1.sql" />
+    <Build Include="dbo\Tables\DimProjects_1.sql" />
+    <Build Include="dbo\Tables\DimProgram_1.sql" />
+    <Build Include="dbo\Tables\ETL_LoadLog_Roster_1.sql" />
+    <Build Include="dbo\Tables\DimLocations_1.sql" />
+    <Build Include="dbo\Tables\DimRegion_1.sql" />
+    <Build Include="dbo\Tables\DWLoginStatus_1.sql" />
+    <Build Include="dbo\Tables\RepaymentKPI_1.sql" />
+    <Build Include="dbo\Tables\FS_KPI_RepaymentCube_1.sql" />
+    <Build Include="dbo\Tables\DimSector_1.sql" />
+    <Build Include="dbo\Tables\DimCreditCycles_1.sql" />
+    <Build Include="dbo\Tables\DimSite_1.sql" />
+    <Build Include="dbo\Tables\CountryRepaymentKPI_1.sql" />
+    <Build Include="dbo\Tables\DimGroup_1.sql" />
+    <Build Include="dbo\Tables\SeasonDeadlines_1.sql" />
+    <Build Include="dbo\Tables\DimVendor_1.sql" />
+    <Build Include="dbo\Tables\DimClient_1.sql" />
+    <Build Include="dbo\Tables\DimCurrency_1.sql" />
+    <Build Include="dbo\Tables\DimAccount_1.sql" />
+    <Build Include="dbo\Tables\dbo_1.DimItem_Old.sql" />
+    <Build Include="dbo\Tables\DimBundles_1.sql" />
+    <Build Include="dbo\Tables\DimCasualActivity_1.sql" />
+    <Build Include="dbo\Tables\ClientPhone_1.sql" />
+    <Build Include="dbo\Tables\DimRosterEmployee_1.sql" />
+    <Build Include="dbo\Tables\DimHealthyPath_1.sql" />
+    <Build Include="dbo\Tables\Round2_Consented_Farmers_1.sql" />
+    <Build Include="dbo\Tables\DimInputs_1.sql" />
+    <Build Include="dbo\Views\v_SiteFOs_1.sql" />
+    <Build Include="dbo\Views\v_Sectors_1.sql" />
+    <Build Include="dbo\Views\v_Inputs_1.sql" />
+    <Build Include="dbo\Views\v_Seasons_1.sql" />
+    <Build Include="dbo\Views\Roster_VIP_Employee_Comparison_1.sql" />
+    <Build Include="dbo\Views\v_Clients_1.sql" />
+    <Build Include="dbo\Views\v_ClientsWithAccountNumber_1.sql" />
+    <Build Include="dbo\Views\v_Countries_1.sql" />
+    <Build Include="dbo\Views\v_Programs_1.sql" />
+    <Build Include="dbo\Views\v_Regions_1.sql" />
+    <Build Include="dbo\Views\v_Districts_1.sql" />
+    <Build Include="dbo\Views\v_Sites_1.sql" />
+    <Build Include="dbo\Views\v_Projects_1.sql" />
+    <Build Include="dbo\Views\v_Groups_1.sql" />
+    <Build Include="dbo\Views\v_TaxiRequesters_1.sql" />
+    <Build Include="dbo\Views\Roster_HR_Comparison_1.sql" />
+    <Build Include="dbo\Functions\v_RosterEmployees_1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_HR_DATAWAREHOUSE.dacpac">
+      <HintPath>..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_HR_DATAWAREHOUSE.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>OAF_HR_DATAWAREHOUSE</DatabaseSqlCmdVariable>
+    </ArtifactReference>
+    <ArtifactReference Include="..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_SAP_DATAWAREHOUSE.dacpac">
+      <HintPath>..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_SAP_DATAWAREHOUSE.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>OAF_SAP_DATAWAREHOUSE</DatabaseSqlCmdVariable>
+    </ArtifactReference>
+    <ArtifactReference Include="..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_SHARED_DIMENSIONS_Staging.dacpac">
+      <HintPath>..\..\..\..\OneDrive\Documents\JOB\DACPAC\OAF_SHARED_DIMENSIONS_Staging.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>OAF_SHARED_DIMENSIONS_Staging</DatabaseSqlCmdVariable>
+    </ArtifactReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="OAF_HR_DATAWAREHOUSE">
+      <DefaultValue>OAF_HR_DATAWAREHOUSE</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="OAF_SAP_DATAWAREHOUSE">
+      <DefaultValue>OAF_SAP_DATAWAREHOUSE</DefaultValue>
+      <Value>$(SqlCmdVar__2)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="OAF_SHARED_DIMENSIONS_Staging">
+      <DefaultValue>OAF_SHARED_DIMENSIONS_Staging</DefaultValue>
+      <Value>$(SqlCmdVar__3)</Value>
+    </SqlCmdVariable>
   </ItemGroup>
 </Project>
