@@ -3,15 +3,17 @@
   DTS:ObjectName="RosterDataWarehouse"
   DTS:DTSID="{A583FB1C-858F-4B24-9341-844EC8EEDAAB}"
   DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::ServerName]</DTS:PropertyExpression>
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=RosterDataWarehouse;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="jDHUZqOvfko="
-        p4:IV="DPv9N3/hZB58mlk5LLYcKg=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">il0Zc8icRf8N3gIUNY7oUucisI/N5N0UT0YmjWXXlcIMqGVYZSQHVOYmhcTDWi7NGd5+ortO1AOJODrCBp6zwIX+CZvO4msfgnGkolKz+BDw4QMKPJNB/y23cyf5nJfPoo56L0B48ZLEyZzltpGKo8X+aGx8DFg5t07tEpzLTbE=</DTS:Password>
+        p4:Salt="cOAWP5M12J8="
+        p4:IV="+3jfAiLQDxyJj5ffh2Ud/w=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">9CjeleS1nPucuv+q4S7+DhdIDSH6UYHUobyBbnJ0cj3i6443BxU6U8ea2gZDK76kGA25yASdGWmeBmGdVwOzZi5+S5U14whUM25GK3zuRL+qmzTHDllfACRyYiqpvGpS8qzXq/H0h7w8PpM8aSJYJ1umFEWl7jRfxxOswpNzgDw=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

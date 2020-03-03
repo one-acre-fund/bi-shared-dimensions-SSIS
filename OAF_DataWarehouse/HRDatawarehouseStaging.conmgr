@@ -3,15 +3,17 @@
   DTS:ObjectName="HRDatawarehouseStaging"
   DTS:DTSID="{08367C58-68B6-4EC1-97A1-35A56B9A87B3}"
   DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::ServerName]</DTS:PropertyExpression>
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=HRSSIS0001;Initial Catalog=OAF_HR_DATAWAREHOUSE_STAGING;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="yZhYk8bd4tw="
-        p4:IV="ZBFfnuRBpZl9HzyVD9EU/A=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">J/OkbtOiYeXHvfQDLLwPQvWecd0KuhgP5UOxSOhtIPB815Xic+B8BUUQEFJ12c2I4+MY16lvfOy9YvRb19Zm6MacqQvPIlXrNLA6fXvXEGJb/PUWop51SBg1v7TwRGq8uH6G2s3maxqlpkPUgX9OgecyVpIGbcfPYkA/CmCcX9A=</DTS:Password>
+        p4:Salt="ZUlQ3q6A8Gg="
+        p4:IV="ZepvSgprAnWYYt0rqnuhCw=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">VAOTvi8gXG0zj9QK051F7gQJBAP2rU+uervQ231fx8jPgmZ7bH7b3h2arZ/ZR0SgBDe1I0iviPl5ksFcYLCgOaBnSSCU/gtgTHdD4knzIPfTlXipMj0h1nYxEbFEJnv91MFcvtUy2zy+PsLFxnN5P+MWLFRKgLqP1lGZSdN9Zmg=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

@@ -3,15 +3,17 @@
   DTS:ObjectName="DataWarehouse"
   DTS:DTSID="{7BFA4561-4CBB-451B-9C6C-6AF410C2D4F1}"
   DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::ServerName]</DTS:PropertyExpression>
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=OAF_SAP_DATAWAREHOUSE;Provider=SQLNCLI11.1;Persist Security Info=True;">
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="/10Q+22Z4rc="
-        p4:IV="FQYyP1G3qoc5mTYY3pm2OA=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">5nZuFcoOcgZ0kSY2Kuqh6sub96lZ2V7ocKfhSXliyLOqn63lfpBbzxTA8gq/21+q2Odz1rrd/hAfmXcuxesCCOx88LFtyNLXzwBf6O5Ti5/Trlfn35U74XMjf4CvOLEbDI0+pxqk7F+vd6RwmJbYaWu5B5h+N2E1m9sWWCsWrLE=</DTS:Password>
+        p4:Salt="wJ+iA1EUvSk="
+        p4:IV="xQhSlDxt9Qj8njJtMYIlBA=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">cEUYUJqtJDG8bppcXa8jOZAP1HLw+81Xd+pukkGLTeTrXtxIUi9PDr7sJpcmCB+1e7Cr+HJDjzdL5sUcCpxkeQVqvp9xJ+OJTLuklZokEPRnv4ruwCFhZIJnpfQ1s4+VvA3Sm1nVdgHi6ax0LR7J7jbMXX0DNq9Qq0IEv22G0Vw=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

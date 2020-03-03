@@ -3,15 +3,17 @@
   DTS:ObjectName="RosterReporting_Staging"
   DTS:DTSID="{BD0D6969-0809-4E2E-AE3C-7C93C060C992}"
   DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::ServerName]</DTS:PropertyExpression>
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectionString="Data Source=mtama.oneacrefund.org,6543;User ID=BOSSIS0001;Initial Catalog=RosterReporting_Staging;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
         Sensitive="1"
-        p4:Salt="NaebKdV1gho="
-        p4:IV="4wKj7uGIze0jWQTCZvQXaA=="
-        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">d57IxTgvtWLmzLvYctU2fz5hk+RNVYZJQsLcdoeaISLLrpWRbHMrHolM1Mo5EbUy63elvGz4vIoZaDf7D8qdwWhXNfNbcCLdi+jl3YmGi5lhMEc2I7q5Dc+Ix/JvYvGdHxgsSfQb5t/ugQ71xygk5zDl03J5wUFQL5Gc8NHgR1M=</DTS:Password>
+        p4:Salt="XfoZnfHY/74="
+        p4:IV="9SDx2cswbJEwXcT8uyV/sQ=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">tbzlsWNz/GETGivvPXTkkePoxAQrwr1MjAvn5hPeGhk5zuh1K6LIZCaGzQ6dHNt+xkEU+bfJF09TfbL711JCZQ3CoZLDMkIOHxDzGzquJU71IjQ4PFRUHI9yH2rxRCnHHAQzxtryGNTqy36fN+9OPLT3y4Cx9ZN7tpPAETW/nm0=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
